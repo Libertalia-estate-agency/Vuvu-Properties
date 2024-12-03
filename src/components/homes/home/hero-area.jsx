@@ -39,11 +39,11 @@ const HeroArea = () => {
                   </h2>
                   <p className="wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">{text}</p>
                   <div className="tp-hero-button mb-140 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
-                    <Link href="/portfolio">
-                      <a className="tp-btn mr-30">{btn_text}</a>
+                    <Link href="/">
+                      <a className="tp-btn mr-30" style={{ color: 'black', backgroundColor: 'burlywood'}}>{btn_text}</a>
                     </Link>
-                    <Link href="/about-me">
-                      <a className="tp-btn-grey">{btn_text_2}
+                    <Link href="/">
+                      <a className="tp-btn-grey" style={{ color: 'black', backgroundColor: 'burlywood'}}>{btn_text_2}
                         <i className="far fa-arrow-right"></i></a>
                     </Link>
                   </div>

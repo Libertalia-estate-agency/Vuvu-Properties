@@ -271,7 +271,7 @@
                 color: var(--tp-common-black);
 
                 &:hover {
-                    color: var(--tp-theme-1);
+                    color: var(--tp-theme-secondary);
                 }
             }
         }
@@ -308,7 +308,7 @@
     }
 
     &:hover {
-        color: var(--tp-theme-1);
+        color: var(--tp-theme-secondary);
     }
 }
 
@@ -387,7 +387,7 @@
                 color: var(--tp-common-black);
 
                 &:hover {
-                    color: var(--tp-theme-1);
+                    color: var(--tp-theme-secondary);
                 }
             }
         }
@@ -419,7 +419,7 @@
     }
 
     &:hover {
-        color: var(--tp-theme-1);
+        color: var(--tp-theme-secondary);
     }
 }
 
@@ -466,7 +466,7 @@
         }
 
         & a {
-            color: var(--tp-theme-1);
+            color: var(--tp-theme-secondary);
             font-weight: 700;
             text-transform: uppercase;
             font-size: 16px;
@@ -623,7 +623,7 @@
     }
 
     &:hover {
-        color: var(--tp-theme-1);
+        color: var(--tp-theme-secondary);
     }
 }
 
@@ -715,7 +715,7 @@
             transition: .3s;
 
             &:hover {
-                color: var(--tp-theme-1);
+                color: var(--tp-theme-secondary);
             }
         }
     }
@@ -769,7 +769,7 @@
 
             &:hover {
                 color: var(--tp-common-black);
-                background-color: var(--tp-theme-primary);
+                background-color: var(--tp-theme-secondary);
             }
         }
 
@@ -820,7 +820,7 @@
     }
 
     &:hover {
-        color: var(--tp-theme-1);
+        color: var(--tp-theme-secondary);
     }
 }
 
@@ -870,7 +870,7 @@
            border-radius: 50%;
            animation: pulse 2s infinite;
             &:hover {
-                background-color: var(--tp-theme-primary);
+                background-color: var(--tp-theme-secondary);
                 color: var(--tp-common-black);
             }
         }
@@ -945,7 +945,7 @@
 
         & a {
             &:hover {
-                color: var(--tp-theme-1);
+                color: var(--tp-theme-secondary);
             }
         }
     }
@@ -972,10 +972,10 @@
             }
 
             &:hover {
-                color: var(--tp-theme-1);
+                color: var(--tp-theme-secondary);
 
                 & i {
-                    color: var(--tp-theme-1);
+                    color: var(--tp-theme-secondary);
                 }
             }
         }
@@ -1161,7 +1161,7 @@
 
                 &:hover {
                     color: var(--tp-common-white);
-                    background: var(--tp-theme-1);
+                    background: var(--tp-theme-secondary);
                 }
             }
         }
@@ -1217,7 +1217,7 @@
                     padding-left: 4px;
 
                     &:hover {
-                        color: var(--tp-theme-1);
+                        color: var(--tp-theme-secondary);
                     }
                 }
 

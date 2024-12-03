@@ -13,7 +13,7 @@ const NewsLetter = () => {
   return (
     <div className="tp-news-letter-area pb-140 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".4s">
       <div className="container">
-        <div className="tp-news-letter-box p-relative" style={{backgroundImage:`url(${bg_img})`,backgroundRepeat:'no-repeat',backgroundPosition:'right',backgroundSize:'contain'}} >
+        <div className="tp-news-letter-box p-relative" style={{backgroundColor:'saddlebrown', backgroundImage:`url(${bg_img})`,backgroundRepeat:'no-repeat',backgroundPosition:'right',backgroundSize:'contain'}} >
           <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-8 col-12  ">
               <div className="tp-news-wrapper pl-90 z-index-1">
@@ -23,8 +23,8 @@ const NewsLetter = () => {
                 </div>
                 <div className="tp-news-button p-relative">
                   <form onSubmit={e => e.preventDefault()}>
-                    <input type="text" placeholder="Enter your email address" />
-                    <button className="tp-submit-button tp-btn-yellow-semilar" type="submit">{btn_text} <i
+                    <input style={{backgroundColor:'azure', color:'black', textDecorationColor:'black' }} type="text" placeholder="Enter your email address" />
+                    <button className="tp-submit-button tp-btn-yellow-semilar" style={{ color:'azure'}} type="submit">{btn_text} <i
                       className="far fa-arrow-right"></i></button>
                   </form>
                 </div>

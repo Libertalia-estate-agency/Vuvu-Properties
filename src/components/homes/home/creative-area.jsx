@@ -9,7 +9,7 @@ const creative_contents = {
     { img_2: '-2', img: '/assets/img/creative/creative-circle-img.png' },
   ],
   title: <>
-    At <b style={{ color: 'burlywood'}} className='hover:bg-amber-200'> Vuvu Properties </b>, we bring a world-class team of real estate professionals dedicated to finding, showcasing, and securing your dream property. We guide you through every step of the process, ensuring your vision is realized with precision, efficiency, and care.
+    At <b style={{ color: 'saddlebrown'}} className='hover:bg-amber-200'> Vuvu Properties </b>, we bring a world-class team of real estate professionals dedicated to finding, showcasing, and securing your dream property. We guide you through every step of the process, ensuring your vision is realized with precision, efficiency, and care.
     </>,
   video_id: 'PO_fBTkoznc',
   video_title: 'Play Take a look behind the scenes',
@@ -20,10 +20,10 @@ const creative_contents = {
       box_title: '1017+', box_text: 'Residential Sales '
     },
     {
-      id: 2, duration: '.7s', delay: '1s', color: 'tp-creative-pink', icon: 'flaticon-setting',
+      id: 2, duration: '.7s', delay: '1s', color: 'tp-creative-background', icon: 'flaticon-setting',
       box_title: '1150+', box_text: 'Commercial Sales'
     },
-    { id: 3, duration: '.3s', delay: '.6s', icon: 'flaticon-satisfaction', box_title: '99%', 
+    { id: 3, duration: '.3s', delay: '.6s', color: 'tp-creative-color',icon: 'flaticon-satisfaction', box_title: '99%', 
       box_text: 'Client Satisfaction' 
       },
   ]
@@ -39,7 +39,7 @@ const CreativeArea = () => {
         <div className="shape-two z-index-1">
           <img src={shape_1} alt="" />
         </div>
-        <div className="tp-creative-area p-relative black-bg pt-140 pb-135 fix">
+        <div className="tp-creative-area p-relative pt-140 pb-135 fix" style={{backgroundColor:'#f3f1e2'}}>
           <div className="circle-animation testimonial">
             <span className="tp-circle-1"></span>
             <span className="tp-circle-2"></span>
@@ -54,13 +54,13 @@ const CreativeArea = () => {
               <div className="col-lg-12">
                 <div className="tp-creative-box text-center">
                   <div className="tp-creative-content mb-110">
-                    <h4 className="tp-creative-title">{title}</h4>
+                    <h4 className="tp-creative-title" style={{ color:'slategray'}}>{title}</h4>
                   </div>
                   <div className="tp-play-button mb-150">
-                    <button className="popup-video" onClick={() => setIsVideoOpen(true)}>
+                    <button className="popup-video" style={{backgroundColor:'black'}} onClick={() => setIsVideoOpen(true)}>
                       <i className="fal fa-play"></i>
                     </button>
-                    <span>{video_title}</span>
+                    <span style={{color:'black'}}>{video_title}</span>
                   </div>
                 </div>
               </div>

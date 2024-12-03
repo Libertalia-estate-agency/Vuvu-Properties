@@ -50,9 +50,9 @@ const BlogArea = () => {
         </div>
         <div className="row">
           <div className="col-xl-12">
-            <div className="tp-blog-button text-center mt-30">
+            <div className="tp-blog-button text-center mt-30" >
               <Link href={'/blog'}>
-                <a className="tp-btn">View All Articless</a>
+                <a className="tp-btn" style={{ color:'white', backgroundColor:'sandybrown'}}>View All Articless</a>
               </Link>
             </div>
           </div>

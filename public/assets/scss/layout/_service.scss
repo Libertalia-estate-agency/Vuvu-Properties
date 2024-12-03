@@ -95,7 +95,7 @@
         font-weight: 500;
 
         &:hover {
-            color: var(--tp-theme-1);
+            color: var(--tp-theme-secondary);
         }
 
         @media #{$lg} {
@@ -128,7 +128,7 @@
         font-weight: 600;
 
         &:hover {
-            color: var(--tp-theme-1);
+            color: var(--tp-theme-secondary);
 
             & i {
                 animation: tfLeftToRight 0.4s forwards;

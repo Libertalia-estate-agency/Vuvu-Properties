@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="circle-animation footer-animation d-none d-md-block">
           <span className="tp-circle-3"></span>
         </div>
-        <div className="container">
+        <div className="container" >
           <div className="tp-footer-widget wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".5s">
             <div className="row align-items-center">
               <div className="col-xl-7 col-lg-7 col-md-7 col-12">
@@ -46,7 +46,7 @@ const Footer = () => {
               <div className="col-xl-5 col-lg-5 col-md-5 col-12">
                 <div className="tp-footer-button text-start text-md-end">
                   <Link href="/contact">
-                    <a className="tp-btn">{btn_text}<i className="far fa-arrow-right"></i></a>
+                    <a className="tp-btn" style={{ backgroundColor: 'sandybrown'}}>{btn_text}<i className="far fa-arrow-right"></i></a>
                   </Link>
                 </div>
               </div>
