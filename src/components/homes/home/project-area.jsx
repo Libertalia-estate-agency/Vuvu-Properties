@@ -61,7 +61,7 @@ const ProjectArea = () => {
                         <a>Johannesburg, Midrand</a>
                       </Link>
                     </h2>
-                    <p>Midrand is the perfect blend of contemporary lifestyle and prime location. Our exclusive listings feature elegant homes, stylish apartments, and serene estates, all situated in one of Johannesburg's fastest-growing regions.</p>
+                    <p>Midrand is the perfect blend of contemporary lifestyle and prime location. Our exclusive listings feature elegant homes, stylish apartments, and serene estates, all situated in one of Johannesburg&apos;s fastest-growing regions.</p>
                     <Link href={`/portfolio-details/${item.id}`}>
                       <a className="tp-btn-sm">View Properties <i className="far fa-arrow-right"></i></a>
                     </Link>
