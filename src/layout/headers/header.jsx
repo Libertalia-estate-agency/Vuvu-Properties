@@ -4,6 +4,7 @@ import useSticky from '../../hooks/use-sticky';
 import Sidebar from '../../components/common/off-canvas';
 import NavMenus from './nav-menus';
 import MobileMenu from './mobile-menu';
+import { FaHome } from 'react-icons/fa';
 
 const Header = () => {
   const { headerSticky } = useSticky();
@@ -17,8 +18,11 @@ const Header = () => {
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-3">
                 <div className="tp-logo">
-                  <Link href="/">
-                    <a><img src="/assets/img/logo/logo-blue.png" alt="" /></a>
+                  <Link href="/" className="logo">
+                    <div className="logo-container d-flex align-items-center">
+                      <FaHome className="home-icon" />
+                      <span className="company-name">Vuvu Properties</span>
+                    </div>
                   </Link>
                 </div>
               </div>

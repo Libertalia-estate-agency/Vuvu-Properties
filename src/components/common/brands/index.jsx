@@ -1,15 +1,16 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
+import Image  from 'next/image';
 
 const brand_images = [
   '/assets/img/brand/brand-1.png',
   '/assets/img/brand/brand-2.png',
-  '/assets/img/brand/brand-3.png',
   '/assets/img/brand/brand-4.png',
-  '/assets/img/brand/brand-5.png',
-  '/assets/img/brand/brand-6.png',
-  '/assets/img/brand/brand-6.png',
+  '/assets/img/brand/brand-16.png',
+  '/assets/img/brand/standard.png',
+  '/assets/img/brand/brand-44.png',
+  
 ]
 
 const Index = () => {
@@ -47,7 +48,11 @@ const Index = () => {
       {brand_images.map((brand, i) => (
         <SwiperSlide key={i}>
           <div className="tp-brand-icon text-center">
-            <img src={brand} alt="" />
+            <Image 
+              src={brand} 
+              width={100}
+              height={100}
+            />
           </div>
         </SwiperSlide>
       ))}

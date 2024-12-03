@@ -9,13 +9,17 @@ const NavMenus = () => {
         <li key={i} className={`${menu.has_dropdown ? 'has-dropdown' : ''}
       ${menu.mega_menu ? 'has-mega-menu' : ''}`}>
           <Link href={menu.link}>
-            <a>{menu.title} {menu.has_dropdown && <i className="fal fa-angle-down"></i>}</a>
+            <a>
+              <span className="">{menu.title}</span> 
+              {menu.has_dropdown && <i className="fal fa-angle-down"></i>}
+              
+            </a>
           </Link>
           {menu.has_dropdown && <ul className="submenu text-start">
             {menu.sub_menus.map((sub_m, i) => (
               <li key={i}>
                 <Link href={sub_m.link}>
-                  <a>{sub_m.title}</a>
+                  <span className="submenu-badge">{sub_m.title}</span>
                 </Link>
               </li>
             ))}

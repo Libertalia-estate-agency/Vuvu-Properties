@@ -2,6 +2,58 @@ const menu_data = [
   {
     id:1,
     mega_menu:false,
+    has_dropdown:false,
+    title:'Home',
+    link:'/',
+  },
+  {
+    id:2,
+    mega_menu:false,
+    has_dropdown:false,
+    title:'About Us',
+    link:'/',
+  },
+  {
+    id:3,
+    mega_menu:true,
+    has_dropdown:true,
+    title:'Services',
+    link:'#',
+    sub_menus:[
+      {link:'/',title:'Residential Property Sales'},
+      {link:'/',title:'Commercial Property Sales'},
+      {link:'/',title:'Real Estate Training Academy'},
+      {link:'/',title:'Property Valuation Services'},
+      {link:'/',title:'Advisory & Consultation'},
+      {link:'/',title:'Property Management Services'},
+    ]
+  },
+  {
+    id:4,
+    mega_menu:false,
+    has_dropdown:true,
+    title:'Resources',
+    link:'/',
+    sub_menus: [
+      {link:'/',title:'News'},
+      {link:'/',title:'FAQ'},
+      {link:'/404',title:'Privacy Policy'},
+    ]
+  },
+  {
+    id:5,
+    mega_menu:false,
+    has_dropdown:false,
+    title:'Contact Us',
+    link:'/',
+  }
+]
+
+{/**
+const menu_data = [
+  {
+    id:1,
+    mega_menu:false,
     has_dropdown:true,
     title:'Home',
     link:'/',
@@ -76,5 +128,7 @@ const menu_data = [
     link:'/contact',
   }
 ]
+ */}
+
 export default menu_data;
 

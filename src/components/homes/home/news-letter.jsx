@@ -1,7 +1,7 @@
 const news_letter_contents = {
   bg_img:'/assets/img/news/news-shape.png',
-  subtitle:'Get update',
-  title:'Get latest updates and deals',
+  subtitle:'Stay Connected with Vuvu Properties',
+  title:'Get the Latest Property Insights, Market Trends, and Exclusive Offers',
   btn_text:'Subscribe',
   news_l_img:'/assets/img/news/news-1.png',
   shape_img:'/assets/img/news/news-shape-2.png'
@@ -19,11 +19,11 @@ const NewsLetter = () => {
               <div className="tp-news-wrapper pl-90 z-index-1">
                 <div className="tp-news-letter-section-box">
                   <h5 className="tp-subtitle subtitle-secondary-color">{subtitle}</h5>
-                  <h2 className="tp-title tp-white-text">{title}</h2>
+                  <h1 style={{ fontSize: '32px' }} className="tp-title tp-white-text text-sm">{title}</h1>
                 </div>
                 <div className="tp-news-button p-relative">
                   <form onSubmit={e => e.preventDefault()}>
-                    <input type="text" placeholder="Enter your mail" />
+                    <input type="text" placeholder="Enter your email address" />
                     <button className="tp-submit-button tp-btn-yellow-semilar" type="submit">{btn_text} <i
                       className="far fa-arrow-right"></i></button>
                   </form>

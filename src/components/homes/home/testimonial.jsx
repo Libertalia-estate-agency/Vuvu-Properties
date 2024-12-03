@@ -5,34 +5,34 @@ const testimonial_data = [
   {
     id: 1,
     user: '/assets/img/testimonial/testi-1.png',
-    name: 'Darrell Steward',
-    title: 'Founder of (Rirax)',
+    name: 'Thando M.',
+    title: 'Aspiring Property Practitioner',
     ratings: [1, 2, 3, 4, 5],
-    desc: 'Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.'
+    desc: 'The Vuvu Properties Training Academy provided me with the knowledge and confidence to launch my career in real estate. Their hands-on approach and experienced mentors were invaluable.'
   },
   {
     id: 2,
     user: '/assets/img/testimonial/testi-2.jpg',
-    name: 'Floyd Miles',
-    title: 'CEO of (Orix)',
+    name: 'Lerato K.',
+    title: 'Satisfied Seller',
     ratings: [1, 2, 3, 4],
-    desc: 'Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.'
+    desc: 'Selling my property through Vuvu Properties was seamless and stress-free. Their team was professional, knowledgeable, and dedicated to getting the best deal for me.'
   },
   {
     id: 3,
     user: '/assets/img/testimonial/testi-3.png',
-    name: 'Albert Flores',
-    title: 'Founder of (Rirax)',
+    name: 'Sipho D.',
+    title: 'Happy Tenant',
     ratings: [1, 2, 3, 4, 5],
-    desc: 'Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.'
+    desc: 'I found the perfect rental home with Vuvu Properties! They truly listened to my needs and made the entire process smooth and enjoyable.'
   },
   {
     id: 4,
     user: '/assets/img/testimonial/testi-1.png',
-    name: 'Darrell Steward',
-    title: 'Founder of (Rirax)',
+    name: 'Naledi R.',
+    title: 'Property Investor',
     ratings: [1, 2, 3, 4, 5],
-    desc: 'Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.'
+    desc: 'The valuation services provided by Vuvu Properties were detailed and accurate, helping me make informed decisions about my property investments.'
   },
 ]
 
@@ -40,34 +40,34 @@ const testimonial_2_data = [
   {
     id: 1,
     user: '/assets/img/testimonial/testi-4.jpg',
-    name: 'Darrell Steward',
-    title: 'Founder of (Rirax)',
+    name: 'Kabelo S.',
+    title: 'Loyal Client',
     ratings: [1, 2, 3, 4, 5],
-    desc: "Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a true professional. he is such a honest, decent and reliable. He always provide good service"
+    desc: "Vuvu Properties is truly a one-stop shop for all real estate needs. From renting my first apartment to learning about property investment through their academy, they’ve been with me every step of the way"
   },
   {
     id: 2,
     user: '/assets/img/testimonial/testi-5.jpg',
-    name: 'Floyd Miles',
-    title: 'CEO of (Orix)',
+    name: 'Busi N.',
+    title: 'Property Buyer',
     ratings: [1, 2, 3, 4],
-    desc: "Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a true professional. he is such a honest, decent and reliable. He always provide good service"
+    desc: "From my first property purchase to expanding my portfolio, Nomvula and Vuvu Properties have been invaluable partners. Their expertise and genuine care make all the difference"
   },
   {
     id: 3,
     user: '/assets/img/testimonial/testi-6.jpg',
-    name: 'Albert Flores',
-    title: 'Founder of (Rirax)',
+    name: 'James S.',
+    title: 'Aspiring Property Practitioner',
     ratings: [1, 2, 3, 4, 5],
-    desc: "Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a true professional. he is such a honest, decent and reliable. He always provide good service"
+    desc: "The training I received at Vuvu Properties Academy was transformative. Nomvula's mentorship and the practical sessions prepared me to excel in the real estate industry."
   },
   {
     id: 4,
     user: '/assets/img/testimonial/testi-5.jpg',
     name: 'Darrell Steward',
-    title: 'Founder of (Rirax)',
+    title: 'Property Owner',
     ratings: [1, 2, 3, 4, 5],
-    desc: "Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a true professional. he is such a honest, decent and reliable. He always provide good service"
+    desc: "Nomvula and her team were exceptional in helping me sell my property. Their expertise and commitment made the entire process effortless and rewarding."
   },
 ]
 
@@ -83,7 +83,7 @@ const Testimonial = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="tp-testimonial-section-box text-center pb-25">
-                <h5 className="tp-subtitle">Client Testimonial</h5>
+                <h5 className="tp-subtitle">Client Testimonials</h5>
                 <h2 className="tp-title tp-white-text">Customer feedback</h2>
               </div>
             </div>

@@ -1,19 +1,21 @@
 import Link from 'next/link';
 import React from 'react';
 
+import Image from 'next/image';
+
 const hero_contents = {
-  title: 'We make things look good',
-  text: <>At Collax we specialize in designing, building, shipping and scaling beautiful, <br />
-    usable products with blazing-fast efficiency</>,
-  btn_text: 'Visit Case Studies',
-  btn_text_2: 'About Collax',
+  title: 'Where ownership meets excellence',
+  text: <>Vuvu Properties is a 100% Black female-owned real estate agency based in Johannesburg, dedicated to delivering exceptional property transaction services tailored to meet the unique needs of every client.</>,
+  btn_text: 'View Services',
+  btn_text_2: 'About Vuvu Properties',
   social_links: [
     { id: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
-    { id: 3, icon: 'fab fa-youtube social-icon-3', title: 'Youtube',link: 'https://www.youtube.com/' },
-    { id: 2, icon: 'fab fa-twitter social-icon-2', title: 'Twitter',link: 'http://twitter.com' },
-    { id: 4, icon: 'fab fa-behance social-icon-4', title: 'Behance',link: 'https://www.behance.net/' },
+    { id: 2, icon: 'fab fa-whatsapp social-icon-2', title: 'Whatsapp',link: 'http://whatsapp.com' },
+    { id: 3, icon: 'fab fa-tiktok social-icon-3', title: 'TikTok',link: 'https://www.tiktok.com/' },
+    { id: 4, icon: 'fab fa-linkedin social-icon-2', title: 'Linked In',link: 'http://linkedin.com' },
+    
   ],
-  hero_img: '/assets/img/hero/hero-2.png',
+  hero_img: '/assets/img/hero/hero-1-2.png',
 }
 
 const { title, text, btn_text, btn_text_2, social_links, hero_img } = hero_contents;
@@ -58,8 +60,15 @@ const HeroArea = () => {
               </div>
             </div>
             <div className="col-xl-5 col-lg-5">
-              <div className="tp-hero-big-img wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
-                <img src={hero_img} alt="" />
+              <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
+                  <Image 
+                    src={hero_img} 
+                    alt="Hero Image" 
+                    layout="intrinsic" 
+                    width={550} 
+                    height={450} 
+                    className="rounded-image"
+                  />
               </div>
             </div>
           </div>

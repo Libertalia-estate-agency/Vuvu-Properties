@@ -3,7 +3,7 @@ import React from 'react';
 import { portfolio_data } from '../../../data';
 
 const ProjectArea = () => {
-  const [category, setCategory] = React.useState('Website Design');
+  const [category, setCategory] = React.useState('Premium Listings');
   const items = portfolio_data.filter(p => p.home);
   const [portfolioItems, setPortfolioItems] = React.useState(items.filter(i => i.category === category));
   const categories = [...new Set(items.map(p => p.category))];
@@ -27,8 +27,8 @@ const ProjectArea = () => {
         <div className="row align-items-center mb-15">
           <div className="col-xl-5 col-lg-12 col-md-12">
             <div className="tp-project-section-box">
-              <h5 className="tp-subtitle">Our Project</h5>
-              <h2 className="tp-title">Creative work. </h2>
+              <h5 className="tp-subtitle"></h5>
+              <h1 className="tp-title">Featured Properties </h1>
             </div>
           </div>
           <div className="col-xl-7 col-lg-12 col-md-12">
@@ -58,12 +58,12 @@ const ProjectArea = () => {
                   <div className="tp-project-content ml-20">
                     <h2 className="pro-lg-title">
                       <Link href={`/portfolio-details/${item.id}`}>
-                        <a>Banking App Management</a>
+                        <a>Johannesburg, Midrand</a>
                       </Link>
                     </h2>
-                    <p>At Collax we specialize in designing, building, shipping...</p>
+                    <p>Midrand is the perfect blend of contemporary lifestyle and prime location. Our exclusive listings feature elegant homes, stylish apartments, and serene estates, all situated in one of Johannesburg's fastest-growing regions.</p>
                     <Link href={`/portfolio-details/${item.id}`}>
-                      <a className="tp-btn-sm">View Case Studies <i className="far fa-arrow-right"></i></a>
+                      <a className="tp-btn-sm">View Properties <i className="far fa-arrow-right"></i></a>
                     </Link>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const ProjectArea = () => {
                         </h3>
                         <p>{item.sm_text}</p>
                         <Link href={`/portfolio-details/${item.id}`}>
-                          <a className="tp-btn-white-sm">Case Studies 
+                          <a className="tp-btn-white-sm">View More 
                           <i className="far fa-arrow-right"></i></a>
                         </Link>
                       </div>

@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import menu_data from '../../../layout/headers/menu-data';
+import { FaHome } from 'react-icons/fa';
 
 const sidebar_contents = {
-  title: <>We deploy world-class Creative <br /> on demand.</>,
+  title: <>Where Ownership meets Excellence</>,
   inst_imgs: [
     '/assets/img/offcanvas/insta-1.jpg',
     '/assets/img/offcanvas/insta-2.jpg',
@@ -29,11 +30,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       <div className="tp-offcanvas-area">
         <div className={`tpoffcanvas ${isOpen ? 'opened' : ''}`}>
           <div className="tpoffcanvas__logo">
-            <Link href="/">
-              <a>
-                <img src="/assets/img/logo/logo-white.png" alt="" />
-              </a>
-            </Link>
+                <Link href="/">
+                          <div className="logo-container d-flex align-items-center">
+                            <FaHome className="home-icon"
+                            style={{ width: '60px', height: '60px', color:'azure' }}
+                            /><span className="company-name" style={{ color:'azure'}}>Vuvu Properties</span>
+                          </div>
+                      </Link>
           </div>
           <div className="tpoffcanvas__close-btn" onClick={() => setIsOpen(false)}>
             <button className="close-btn"><i className="fal fa-times-hexagon"></i></button>
@@ -62,16 +65,17 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <span>Contact us</span>
             <ul>
               <li>
-                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">Melbone st, Australia, Ny 12099</a>
+                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">7 Quail Close Meyersdal Eco
+                Estate 1448</a>
               </li>
-              <li><i className="fas fa-star"></i><a href="tel:8180012345678">+81 800 123 456 78</a></li>
-              <li><i className="fas fa-star"></i><a href="mailto:Collaxmail@gmail.com">Collaxmail@gmail.com</a></li>
+              <li><i className="fas fa-star"></i><a href="tel:8180012345678">083-272-9115</a></li>
+              <li><i className="fas fa-star"></i><a href="mailto:Collaxmail@gmail.com">nomvula@vuvuproperties.co.za</a></li>
             </ul>
           </div>
           <div className="tpoffcanvas__input d-none d-sm-block">
-            <p>Get UPdate</p>
+            <p>Keep Updated</p>
             <form className="p-relative" action="#">
-              <input type="text" placeholder="Enter mail" />
+              <input type="text" placeholder="Enter email address" />
               <button type="submit"><i className="fas fa-paper-plane"></i></button>
             </form>
           </div>

@@ -8,21 +8,24 @@ const creative_contents = {
     { img: '/assets/img/creative/creative-hand.png' },
     { img_2: '-2', img: '/assets/img/creative/creative-circle-img.png' },
   ],
-  title: <>We deploy world-class <b>Creative Design team</b> on demand.
-    that can design, build, ship and scale your vision in the most efficient way.</>,
+  title: <>
+    At <b style={{ color: 'burlywood'}} className='hover:bg-amber-200'> Vuvu Properties </b>, we bring a world-class team of real estate professionals dedicated to finding, showcasing, and securing your dream property. We guide you through every step of the process, ensuring your vision is realized with precision, efficiency, and care.
+    </>,
   video_id: 'PO_fBTkoznc',
   video_title: 'Play Take a look behind the scenes',
   creative_box: [
-    { id: 1, duration: '.3s', delay: '.6s', icon: 'flaticon-satisfaction', box_title: '100%', 
-    box_text: 'Client Satisfaction' },
+    
     {
-      id: 2, duration: '.5s', delay: '.8s', color: 'tp-creative-blue', icon: 'flaticon-clipboard',
-      box_title: '1200+', box_text: 'Complete Project'
+      id: 1, duration: '.5s', delay: '.8s', color: 'tp-creative-blue', icon: 'flaticon-clipboard',
+      box_title: '1017+', box_text: 'Residential Sales '
     },
     {
-      id: 3, duration: '.7s', delay: '1s', color: 'tp-creative-pink', icon: 'flaticon-setting',
-      box_title: '1800+', box_text: 'Design Resource'
+      id: 2, duration: '.7s', delay: '1s', color: 'tp-creative-pink', icon: 'flaticon-setting',
+      box_title: '1150+', box_text: 'Commercial Sales'
     },
+    { id: 3, duration: '.3s', delay: '.6s', icon: 'flaticon-satisfaction', box_title: '99%', 
+      box_text: 'Client Satisfaction' 
+      },
   ]
 }
 

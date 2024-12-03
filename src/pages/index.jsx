@@ -6,7 +6,7 @@ export default function index() {
   
   return (
     <Wrapper>
-      <SEO pageTitle={'Home Default'} />
+      <SEO pageTitle={'Home'} />
       <HomeMain />
     </Wrapper>
   )

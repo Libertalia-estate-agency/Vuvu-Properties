@@ -13,8 +13,8 @@ const BlogArea = () => {
         <div className="row">
           <div className="col-xl-12">
             <div className="tp-blog-section-box text-center pb-15">
-              <h5 className="tp-subtitle">Blog & Article</h5>
-              <h2 className="tp-title">Recent blog post</h2>
+              <h5 className="tp-subtitle">Johannesburg Real Estate Industry</h5>
+              <h2 className="tp-title">Recent blog posts</h2>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ const BlogArea = () => {
           <div className="col-xl-12">
             <div className="tp-blog-button text-center mt-30">
               <Link href={'/blog'}>
-                <a className="tp-btn">View All Blog</a>
+                <a className="tp-btn">View All Articless</a>
               </Link>
             </div>
           </div>

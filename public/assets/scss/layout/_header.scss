@@ -280,7 +280,79 @@
         }
     }
 }
+/* General Header Styling */
+.header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Reduce the gap slightly for better alignment */
+  }
+  
+  .home-icon {
+    font-size: 30px; /* Slightly smaller for better proportion */
+    color: #1a1b1c;
+  }
+  
+  .company-name {
+    font-size: 24px; /* Slightly smaller to match the icon */
+    font-weight: 600; /* Bold, but not too heavy */
+    color: #333;
+    margin-top: 2px; /* Adjust alignment for text to be centered with the icon */
+  }
+  
+  .nav .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav .nav-list li a {
+    text-decoration: none;
+    color: #ac8e33;
+    font-weight: 500;
+    font-size: 16px; /* Ensure consistent font size across links */
+  }
+  
+  .nav .nav-list li a:hover {
+    color: #705b15;
+    text-decoration: underline;
+  }
 
+  /* Main Menu Badge */
+.menu-badge {
+    background-color: #a27e1b;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+  }
+  
+  /* Submenu Badge */
+  .submenu-badge {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+  }
+  
+  /* Add hover effects */
+  .menu-badge:hover,
+  .submenu-badge:hover {
+    background-color: #dcad14;
+    color: #f8f9fa;
+    transition: background-color 0.3s ease;
+  }
+  
 .header-transparent {
     position: absolute;
     left: 0;

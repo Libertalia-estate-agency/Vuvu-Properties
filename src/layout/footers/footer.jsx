@@ -2,10 +2,13 @@ import Link from 'next/link';
 import React from 'react';
 import { ClipPath, UpArrow } from '../../svg';
 
+import { FaHome } from 'react-icons/fa';
+
+
 const footer_contents = {
-  title: <>More than 10 years in the game and {"we're"} <br /> just getting started.🤝</>,
-  btn_text: 'Available for new Project',
-  copyRight_text: <>© {new Date().getFullYear()} Creative Agency , All Right Receved.</>,
+  title: <>With over 10 years of experience in real estate, Vuvu Properties is just getting started! Whether {"you're"} buying, selling, renting, or need professional advice, {"we're"} here to help.</>,
+  btn_text: 'Make an Inquiry',
+  copyRight_text: <>© {new Date().getFullYear()} Vuvu Properties , All Right Receved.</>,
   conditions: ['Support', 'Privacy policy', 'Terms and conditions'],
   logo: '/assets/img/copyright/copyright-logo.png',
   social_links: ['fab fa-linkedin-in', 'fab fa-facebook-f', 'fab fa-instagram', 'fab fa-youtube']
@@ -37,7 +40,7 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-xl-7 col-lg-7 col-md-7 col-12">
                 <div className="tp-footer-top">
-                  <h5 className="tp-footer-title">{title}</h5>
+                  <h5 className="tp-footer-title" style={{ fontSize: '20px' }}>{title}</h5>
                 </div>
               </div>
               <div className="col-xl-5 col-lg-5 col-md-5 col-12">
@@ -70,9 +73,14 @@ const Footer = () => {
               <div className="row align-items-center">
                 <div className="col-xl-4 col-lg-4 col-md-4 col-12">
                   <div className="tp-copyright-logo mt-35">
-                    <Link href="/">
-                      <a><img src={logo} alt="" /></a>
-                    </Link>
+                    
+                      <Link href="/">
+                          <div className="logo-container d-flex align-items-center">
+                            <FaHome className="home-icon"
+                            style={{ width: '60px', height: '60px', color:'azure' }}
+                            /><span className="company-name" style={{ color:'azure'}}>Vuvu Properties</span>
+                          </div>
+                      </Link>
                   </div>
                 </div>
                 <div className="col-xl-8 col-lg-8 col-md-8 col-12">
