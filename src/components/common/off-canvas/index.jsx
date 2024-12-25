@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import menu_data from '../../../layout/headers/menu-data';
 import { FaHome } from 'react-icons/fa';
+import SocialLinks from './social-links';
 
 const sidebar_contents = {
   title: <>Where Ownership meets Excellence</>,
@@ -82,12 +83,10 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           <div className="tpoffcanvas__instagram d-none d-sm-block">
             <p>Check Instagram POst</p>
             <div className="tp-insta">
-              <div className="row">
-                {inst_imgs.map((img, i) => (
-                  <div key={i} className="col-3 col-sm-3"><a href="#">
-                    <img src={img} alt="" /></a>
-                  </div>
-                ))}
+              <div className="row" style={{ alignContent: 'center', alignSelf:'center', alignItems: 'center'}}>
+                <div className="tp-copyright-social bp-copyright-social tp-copyright-social-two text-center text-lg-end mb-30">
+                  <SocialLinks />
+                </div>
               </div>
             </div>
           </div>

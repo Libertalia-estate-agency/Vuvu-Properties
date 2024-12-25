@@ -20,13 +20,12 @@ const AboutMeArea = ({team}) => {
                     <div className="amaboutinfo__client-info">
                       <h4>{name}</h4>
                       <span>{title}</span>
-                      <p>Phasellus in libero et nunc malesuada tincidu Morbi auctor tristique semper. Nunc
-                        condimentum dapibus felis</p>
+                      <p>At the heart of Vuvu Properties is a dynamic leader whose passion for property and commitment to excellence drives our mission to provide top-tier property transaction services.</p>
                     </div>
                     <div className="amaboutinfo__experience">
-                      <p><b>Expertise:</b> Genetic Specialist</p>
-                      <p><b>Experience:</b> 5 Years</p>
-                      <p><a href="mailto:webmail.info@gmail.com"><b>E-mail:</b> webmail.info@gmail.com</a></p>
+                      <p><b>Expertise:</b> Strategic Leadership </p>
+                      <p><b>Experience:</b> 22 Years</p>
+                      <p><a href="mailto:webmail.info@gmail.com"><b>E-mail:</b> nomvula@vuvuproperties.co.za</a></p>
                     </div>
                   </div>
                 </div>

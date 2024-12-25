@@ -12,15 +12,22 @@ const TeamArea = () => {
           <div className="row">
             <div className="col-12">
               <div className="ac-team-title-section text-center mb-60">
-                <h3 className="ac-team-title">People are the key to success</h3>
+                <h3 className="ac-team-title">Meet Our Ceo</h3>
               </div>
             </div>
           </div>
-          <div className="row">
-            {teams.map((team) => <SingleTeam key={team.id} team={team} />)}
+          <div className="row justify-content-center">
+            {teams.length === 1 ? (
+              <div className="col-12 d-flex justify-content-center">
+                <SingleTeam key={teams[0].id} team={teams[0]} />
+              </div>
+            ) : (
+              teams.map((team) => <SingleTeam key={team.id} team={team} />)
+            )}
           </div>
         </div>
       </div>
+
     </>
   );
 };

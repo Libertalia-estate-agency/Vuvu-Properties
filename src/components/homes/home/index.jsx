@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Footer, Header, Wrapper } from '../../../layout';
+import { Footer, FooterFive, Header, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 import BlogArea from './blog-area';
 import BrandArea from './brand-area';
@@ -21,15 +21,24 @@ const Home = () => {
       <Header />
       <HeroArea />
       <CreativeArea/>
-      <BrandArea/>
+      
       <ServicesArea/>
       <ProjectArea/>
-      <Testimonial/>
-      <BlogArea/>
+
+      <BrandArea/>
       <NewsLetter/>
-      <Footer/>
+      
+      <Testimonial/>
+      
+      <FooterFive/>
     </Wrapper>
   );
 };
 
 export default Home;
+
+/**
+ * 
+      <BlogArea/>
+ * 
+ */

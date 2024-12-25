@@ -11,10 +11,22 @@ const menu_data = [
     mega_menu:false,
     has_dropdown:false,
     title:'About Us',
-    link:'/',
+    link:'/about',
   },
   {
     id:3,
+    mega_menu:false,
+    has_dropdown:true,
+    title:'Properties',
+    link:'/',
+    sub_menus: [
+      {link:'/',title:'For Rent'},
+      {link:'/',title:'For Sale'},
+      {link:'/404',title:'Buy Property'},
+    ]
+  },
+  {
+    id:4,
     mega_menu:true,
     has_dropdown:true,
     title:'Services',
@@ -29,7 +41,7 @@ const menu_data = [
     ]
   },
   {
-    id:4,
+    id:5,
     mega_menu:false,
     has_dropdown:true,
     title:'Resources',
@@ -41,7 +53,7 @@ const menu_data = [
     ]
   },
   {
-    id:5,
+    id:6,
     mega_menu:false,
     has_dropdown:false,
     title:'Contact Us',

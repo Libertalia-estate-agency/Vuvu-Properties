@@ -38,7 +38,7 @@ const AboutForm = () => {
           </div>
         </div>
       </div>
-      <input className="tp-btn-lg-yellow" type="submit" value="Send Massage" />
+      <input className="tp-btn-lg-yellow text-white" type="submit" value="Send Massage" />
     </form>
   );
 };

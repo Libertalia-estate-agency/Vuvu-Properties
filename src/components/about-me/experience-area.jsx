@@ -2,20 +2,20 @@ import React from 'react';
 
 const contents = {
   title: 'Personal Experience',
-  text_1: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,',
-  text_2: 'Must explain to you how all this mistaken idea of denouncing works pleasure and praising uts pain was born and I will gives you a itself completed account of the system, and sed expounds the ut actual teachings of that greater sed explores truth. Denouncing works pleasures and praising pains was us born and I will gives you a completed ut workers accounts of the system. sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.',
+  text_1: 'With years of hands-on experience, the founder has successfully facilitated numerous property sales and rentals. The founder’s journey is a testament to the values that Vuvu Properties upholds—integrity, professionalism, and a client-first approach. By leveraging extensive knowledge and experience, our founder ensures that every client receives unparalleled service tailored to their needs.',
+  text_2: 'Passionate about creating opportunities and fostering empowerment within the real estate industry, Nomvula is a dedicated mentor to emerging professionals in the field who has facilitated transactions across residential, commercial, and industrial sectors - Building a legacy of trust and excellence in the real estate industry.',
   feature_items: [
     {
-      title: 'Skills', desc: "Must explain to you how all praising uts pain was born and I will gives you a itself completed account of the system, and sed expounds the ut actual teachings of that greater",
-      lists: ['Extramural Funding', 'Bacteria Markers', 'Type of system involved', 'Nam nec mi euismod euismod']
+      title: 'Skills', desc: "A dynamic set of capabilities refined through years of experience, enabling exceptional results in real estate and business leadership. Proven ability to steer businesses toward growth and sustainability through effective decision-making and visionary planning. Expertise in building long-term relationships with clients by providing personalized and efficient property solutions.",
+      lists: ['Strategic Leadership', 'Real Estate Management', 'Financial Acumen', 'Corporate Governance', 'Client Relations']
     },
     {
-      title: 'Education', desc: "Must explain to you how all praising uts pain was born and I will gives you a itself completed account of the system, and sed expounds the ut actual teachings of that greater",
-      lists: ['Extramural Funding', 'Bacteria Markers', 'Type of system involved', 'Nam nec mi euismod euismod']
+      title: 'Education', desc: "An impressive academic foundation combined with professional certifications, laying the groundwork for leadership in the real estate sector. Solid foundation in accounting and business principles essential for managing finances and real estate operations. Recognition as a professional qualified to handle transactions, manage client expectations, and uphold industry standards.",
+      lists: ['BCompt Degree', 'BCompt (Hons)', 'Certified Property Practitioner in Real Estate', 'Corporate Governance Certificate']
     },
     {
-      title: 'Awards', desc: "Must explain to you how all praising uts pain was born and I will gives you a itself completed account of the system, and sed expounds the ut actual teachings of that greater",
-      lists: ['Extramural Funding', 'Bacteria Markers', 'Type of system involved', 'Nam nec mi euismod euismod']
+      title: 'Awards', desc: "Recognition for outstanding contributions and exceptional performance in the real estate sector, celebrating a commitment to excellence.",
+      lists: ['Top Real Estate Practitioner Award (2023)', 'Leadership Excellence (2024)', 'Governance Award', 'Best Seller Award']
     },
   ]
 }

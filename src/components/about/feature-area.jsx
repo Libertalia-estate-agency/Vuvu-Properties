@@ -20,9 +20,9 @@ function FeatureItem({ title, subtitle, color }) {
 }
 
 const contents = {
-  title: 'Creating world class experiences',
-  sm_desc_1: "Collax builds digital products that let people do things differently. Share your challenge with our team, and we’ll work with you to deliver a revolutionary digital product. Our clients have changed the way people do banking, listen to music.",
-  sm_desc_2: "learn languages, and rent bikes. Their products have been featured in TechCrunch, Business Insider, and Product Hunt"
+  title: 'Shape Your Future in Real Estate with Expert Training',
+  sm_desc_1: "Take the first step toward a successful real estate career. Enroll today and unlock your potential with Vuvu Training Academy.",
+  sm_desc_2: "Whether you're starting your journey in real estate or seeking to advance your career, our academy equips you with the knowledge, skills, and confidence to thrive in the competitive property market."
 }
 const { title, sm_desc_1, sm_desc_2 } = contents;
 
@@ -46,14 +46,14 @@ const FeatureArea = () => {
           </div>
           <div className="ac-feature-border-top">
             <div className="row">
-              <FeatureItem title={'Project kikoff'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'PIdeation'} color={'2'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'Design Process'} color={'3'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'Development'} color={'4'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
+              <FeatureItem title={'Real Estate Basics for Beginners'}
+                subtitle={'Comprehensive, hands-on curriculum...'} />
+              <FeatureItem title={'Property Valuation and Market Analysis'} color={'2'}
+                subtitle={'Expert trainers with years of industry experience..'} />
+              <FeatureItem title={'Marketing and Branding for Real Estate Agents'} color={'3'}
+                subtitle={'Practical case studies and real-world examples...'} />
+              <FeatureItem title={'Legal and Compliance Training'} color={'4'}
+                subtitle={'Investment Strategies and Portfolio Management...'} />
             </div>
           </div>
         </div>

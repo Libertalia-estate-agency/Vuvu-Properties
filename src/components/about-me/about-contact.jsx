@@ -9,7 +9,7 @@ const AboutContact = () => {
           <div className="col-12">
             <div className="am-contact-info p-relative">
               <div>
-                <h4 className="am-contact-title">Direct massage me!</h4>
+                <h4 className="am-contact-title">Send Enquiry</h4>
               </div>
               <div className="am-border-shape">
               </div>
