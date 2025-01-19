@@ -19,9 +19,10 @@ const Header = () => {
               <div className="col-xl-3 col-lg-3">
                 <div className="tp-logo">
                   <Link href="/" className="logo">
-                    <div className="logo-container d-flex align-items-center">
-                      <FaHome className="home-icon" />
-                      <span className="company-name">Vuvu Properties</span>
+                    <div className="logo-container d-flex align-items-center"> 
+                      <Link href={'/'}>
+                        <a><img src="/assets/img/logo/vuvu.png" alt="" /></a>
+                      </Link>
                     </div>
                   </Link>
                 </div>
@@ -57,3 +58,6 @@ const Header = () => {
 };
 
 export default Header;
+
+//<FaHome className="home-icon" />
+                      

@@ -17,9 +17,10 @@ const MobileMenu = ({ logo, bg, transparent = true }) => {
             <div className="col-6">
               <div className="tp-logo">
                 <Link href="/" className="logo">
-                    <div className="logo-container d-flex align-items-center">
-                      <FaHome className="home-icon" />
-                      <span className="company-name">Vuvu Properties</span>
+                    <div className="logo-container d-flex align-items-center" > 
+                      <Link href={'/'}>
+                        <a><img src="/assets/img/logo/vuvu.png" alt="" /></a>
+                      </Link>
                     </div>
                   </Link>
                                 </div>

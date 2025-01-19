@@ -32,12 +32,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         <div className={`tpoffcanvas ${isOpen ? 'opened' : ''}`}>
           <div className="tpoffcanvas__logo">
                 <Link href="/">
-                          <div className="logo-container d-flex align-items-center">
-                            <FaHome className="home-icon"
-                            style={{ width: '60px', height: '60px', color:'azure' }}
-                            /><span className="company-name" style={{ color:'azure'}}>Vuvu Properties</span>
-                          </div>
+                  <div className="logo-container d-flex align-items-center">
+                      <Link href={'/'}>
+                        <a><img src="/assets/img/logo/vuvu.png" alt="" /></a>
                       </Link>
+                  </div>
+                </Link>
           </div>
           <div className="tpoffcanvas__close-btn" onClick={() => setIsOpen(false)}>
             <button className="close-btn"><i className="fal fa-times-hexagon"></i></button>
@@ -70,7 +70,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 Estate 1448</a>
               </li>
               <li><i className="fas fa-star"></i><a href="tel:8180012345678">083-272-9115</a></li>
-              <li><i className="fas fa-star"></i><a href="mailto:Collaxmail@gmail.com">nomvula@vuvuproperties.co.za</a></li>
+              <li><i className="fas fa-star"></i><a href="mailto:Collaxmail@gmail.com">support@vuvuproperties.co.za</a></li>
             </ul>
           </div>
           <div className="tpoffcanvas__input d-none d-sm-block">
@@ -81,7 +81,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             </form>
           </div>
           <div className="tpoffcanvas__instagram d-none d-sm-block">
-            <p>Check Instagram POst</p>
+            <p>Social Links</p>
             <div className="tp-insta">
               <div className="row" style={{ alignContent: 'center', alignSelf:'center', alignItems: 'center'}}>
                 <div className="tp-copyright-social bp-copyright-social tp-copyright-social-two text-center text-lg-end mb-30">
