@@ -22,4 +22,4 @@ const Courses = () => {
   );
 };
 
-export default Products;
+export default Courses;

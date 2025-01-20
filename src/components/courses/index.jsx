@@ -5,7 +5,7 @@ import Breadcrumb from '../common/breadcrumb/breadcrumb';
 import CoursesArea from './course-area';
 
 
-const Products = () => {
+const Courses = () => {
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
@@ -22,4 +22,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Courses;
