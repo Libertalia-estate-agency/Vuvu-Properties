@@ -5,6 +5,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { add_cart_product } from '../../redux/features/cart-slice';
 import ReviewForm from '../forms/review-form';
 import RelatedProducts from './related-products';
+import Link from 'next/link';
+
 
 
 const ProductDetailsArea = ({ product }) => {
@@ -50,7 +52,9 @@ const ProductDetailsArea = ({ product }) => {
                 </div>
                 <div className="productdetails__button">
                   <button onClick={()=> dispatch(add_cart_product(product))} className="tp-btn-yellow mb-20 mr-20 text-white">Add to cart</button>
-                  <button className="tp-btn-sm-sky">Enrol now</button>
+                  <Link href={"/checkout"}>
+                    <button className="tp-btn-sm-sky">Enrol now</button>
+                  </Link>
                 </div>
               </div>
             </div>

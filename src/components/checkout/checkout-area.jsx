@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import useCart from '../../hooks/use-cart';
 
-const countries = ['Bangladesh', 'Algeria', 'Afghanistan', 'Ghana', 'Albania', 'Bahrain', 'Colombia', 'Dominican Republic']
+const countries = ['Republic Of South Africa', 'Eswatini', 'Botswana', 'Namibia', 'Lesotho', 'Nigeria', 'United States Of America', 'United Kingdom', 'Spain']
 const payment_accordion = [
   {
     id: 'headingOne',
@@ -20,8 +20,8 @@ const payment_accordion = [
   {
     id: 'headingThree',
     target: 'collapseThree',
-    title: 'PayPal',
-    desc: "Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.",
+    title: 'Cash Payment',
+    desc: "Pay via Cash Payment; you can pay with your credit card if you don’t have enough cash.",
   },
 ]
 
@@ -135,7 +135,7 @@ const CheckoutArea = () => {
                               {item.title} <strong className="product-quantity"> × {item.quantity}</strong>
                             </td>
                             <td className="product-total text-end">
-                              <span className="amount">${item.price}</span>
+                              <span className="amount">{item.price}</span>
                             </td>
                           </tr>
                         ))}
@@ -143,11 +143,11 @@ const CheckoutArea = () => {
                       <tfoot>
                         <tr className="cart-subtotal">
                           <th>Cart Subtotal</th>
-                          <td className='text-end'><span className="amount">${total}</span></td>
+                          <td className='text-end'><span className="amount">R{total}</span></td>
                         </tr>
                         <tr className="order-total">
                           <th>Order Total</th>
-                          <td className='text-end'><strong><span className="amount">${total}</span></strong>
+                          <td className='text-end'><strong><span className="amount">R{total}</span></strong>
                           </td>
                         </tr>
                       </tfoot>

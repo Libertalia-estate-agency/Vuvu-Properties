@@ -280,12 +280,28 @@
         }
     }
 }
+
 /* General Header Styling */
 .header {
     background-color: #f8f9fa;
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 70px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: height 0.3s ease;
   }
+
+  /* Mobile adjustments */
+    @media (max-width: 768px) {
+        .header {
+        height: 50px; /* Smaller height for mobile */
+        }
+    }
   
   .logo-container {
     display: flex;
