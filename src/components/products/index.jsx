@@ -15,7 +15,7 @@ const Courses = () => {
     <Wrapper>
       <Header />
       <Breadcrumb title={'Courses Overview'} />
-      <CouseArea/>
+      <CourseArea/>
       <FooterFive />
     </Wrapper>
   );
