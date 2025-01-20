@@ -41,16 +41,16 @@ const ProductDetailsArea = ({ product }) => {
                     initialRating={rating}
                     readonly
                   />
-                  <span>({customer_reviews} customer review)</span>
-                  <h4>${price} {old_price && <del>/{old_price}</del>}</h4>
+                  <span>( {customer_reviews} customer reviews )</span>
+                  <h4>{price} {old_price && <del>/{old_price}</del>}</h4>
                 </div>
                 <div className="productdetails__model">
-                  <h5>Model</h5>
+                  <h5>Effort</h5>
                   {models && models.map((m, i) => <a key={i} href="#">{m}</a>)}
                 </div>
                 <div className="productdetails__button">
-                  <button onClick={()=> dispatch(add_cart_product(product))} className="tp-btn-yellow mb-20 mr-20">Add to cart</button>
-                  <button className="tp-btn-sm-sky">Buy now</button>
+                  <button onClick={()=> dispatch(add_cart_product(product))} className="tp-btn-yellow mb-20 mr-20 text-white">Add to cart</button>
+                  <button className="tp-btn-sm-sky">Enrol now</button>
                 </div>
               </div>
             </div>
@@ -63,16 +63,16 @@ const ProductDetailsArea = ({ product }) => {
                     <div className="pro-details-nav mb-40">
                       <ul className="nav nav-tabs pro-details-nav-btn" id="myTabs" role="tablist">
                         <li className="nav-item" role="presentation">
-                          <button className="nav-links active" id="home-tab-1" data-bs-toggle="tab" data-bs-target="#home-1" type="button" role="tab" aria-controls="home-1" aria-selected="true" tabIndex='-1'><span>Product Details</span></button>
+                          <button className="nav-links active" id="home-tab-1" data-bs-toggle="tab" data-bs-target="#home-1" type="button" role="tab" aria-controls="home-1" aria-selected="true" tabIndex='-1'><span>Course Details</span></button>
                         </li>
                         <li className="nav-item" role="presentation">
                           <button className="nav-links" id="information-tab" data-bs-toggle="tab" data-bs-target="#additional-information" type="button" role="tab" aria-controls="additional-information" tabIndex='-1' aria-selected="false"><span>Additional Info</span></button>
                         </li>
                         <li className="nav-item" role="presentation">
-                          <button className="nav-links" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false" tabIndex='-1'><span>Review (08)</span></button>
+                          <button className="nav-links" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false" tabIndex='-1'><span>Reviews (08)</span></button>
                         </li>
                         <li className="nav-item" role="presentation">
-                          <button className="nav-links" id="size-chart-tab" data-bs-toggle="tab" data-bs-target="#chart" type="button" role="tab" aria-controls="chart" aria-selected="false" tabIndex='-1'><span>Faq</span></button>
+                          <button className="nav-links" id="size-chart-tab" data-bs-toggle="tab" data-bs-target="#chart" type="button" role="tab" aria-controls="chart" aria-selected="false" tabIndex='-1'><span>FAQs</span></button>
                         </li>
                       </ul>
                     </div>
@@ -100,7 +100,7 @@ const ProductDetailsArea = ({ product }) => {
                       </div>
                       <div className="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
                         <div className="product-details-review">
-                          <h3 className="tp-comments-title mb-35">3 reviews for “Wide Cotton Tunic extreme hammer”</h3>
+                          <h3 className="tp-comments-title mb-35">3 Graduate Testimonials</h3>
                           <div className="latest-comments mb-55">
                             <ul>
                               {reviews.map((review, i) => (

@@ -55,7 +55,7 @@ const RelatedProducts = ({ category, title }) => {
           <div className="row justify-content-center">
             <div className="col-xl-10">
               <div className="tp-product-slider-title">
-                <h3 className="tp-product-slider-title pb-45">Realated Product</h3>
+                <h3 className="tp-product-slider-title pb-45">Realated Courses</h3>
               </div>
             </div>
           </div>
@@ -72,16 +72,16 @@ const RelatedProducts = ({ category, title }) => {
                         <img className="w-100" src={img} alt="" />
                         <div className="tp-product-icon">
                           <button onClick={() => handleAddProduct(item)}>
-                            <i className={isCartSelected ? 'fas fa-check' : "fal fa-shopping-basket"}></i>
+                            <i className={isCartSelected ? 'fas fa-check' : "fal fa-shopping-basket"} style={{ color: 'white'}}></i>
                           </button>
                           <button onClick={() => handleWishlist(item)}>
-                            <i className={isWishlistSelected ? 'fas fa-heart' : "fal fa-heart"}></i>
+                            <i className={isWishlistSelected ? 'fas fa-heart' : "fal fa-heart"} style={{ color: 'white'}}></i>
                           </button>
                         </div>
                       </div>
                       <div className="tpproduct__meta">
                         <h4 className="tp-product-title"><a href="#">{title}</a></h4>
-                        <span>${price}</span>
+                        <span>{price}</span>
                         <div className="product-rating">
                           <Rating
                             fullSymbol={<i className="fas fa-star"></i>}
@@ -139,7 +139,7 @@ const RelatedProducts = ({ category, title }) => {
                         </div>
                         <div className="tpproduct__meta">
                           <h4 className="tp-product-title"><a href="#">{title}</a></h4>
-                          <span>${price}</span>
+                          <span>{price}</span>
                           <div className="product-rating">
                             <Rating
                               fullSymbol={<i className="fas fa-star"></i>}

@@ -9,7 +9,7 @@ const product_item = productsData[2]
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={'Product Details'} />
+      <SEO pageTitle={'Course Details'} />
       <ProductsDetailsMain product={product_item}/>
     </Wrapper>
   );

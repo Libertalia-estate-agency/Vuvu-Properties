@@ -12,7 +12,7 @@ const ProductDynamicDetails = () => {
   const product_item = productsData.find(item => Number(item.id) === Number(id))
   return (
     <Wrapper>
-      <SEO pageTitle={'Product Details'} />
+      <SEO pageTitle={'Course Details'} />
       <ProductsDetailsMain product={product_item} />
     </Wrapper>
   );

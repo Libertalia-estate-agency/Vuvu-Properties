@@ -15,7 +15,7 @@ const ProductsDetails = ({product}) => {
   return (
     <Wrapper>
       <Header />
-      <Breadcrumb title={product?.title ? product?.title : 'Product Details'} />
+      <Breadcrumb title={product?.title ? product?.title : 'Course Details'} />
       <ProductDetailsArea product={product}/>
       <FooterFive />
     </Wrapper>
