@@ -1240,16 +1240,28 @@
   /* Image Container Styling */
     .image-container {
     position: relative;
-    width: 550px; /* Set the container width */
-    height: 450px; /* Set the container height */
-    border-radius: 20px; /* Rounded corners */
+    width: 100%; /* Ensures the container spans the screen width */
+    max-width: 100%; /* Prevents the container from exceeding the screen width */
+    border-radius: 10px; /* Rounded corners */
     overflow: hidden; /* Ensures the image stays within rounded corners */
     border: 3px solid #201900; /* Optional border color */
+    margin: 0 auto;
   }
   .rounded-image {
     border-radius: inherit; /* Ensures image takes the parent's border radius */
     object-fit:fill; /* Ensures image scales nicely */
     object-position: center; /* Centers the image */
+  }
+  
+  /* Responsive styling for different screen sizes */
+  @media (max-width: 768px) {
+    .image-container {
+      padding: 0 15px; /* Adds padding to prevent touching screen edges */
+    }
+  
+    .rounded-image {
+      border-radius: 4px; /* Smaller radius for mobile */
+    }
   }
   
   /* Text Styling */

@@ -64,7 +64,7 @@ const HeroArea = () => {
                   <Image 
                     src={hero_img} 
                     alt="Hero Image" 
-                    layout="intrinsic" 
+                    layout="responsive"  
                     width={550} 
                     height={450} 
                     className="rounded-image"

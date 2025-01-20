@@ -68,9 +68,9 @@ const AboutArea = () => {
                   <Image 
                                     src={about_img} 
                                     alt="Hero Image" 
-                                    layout="intrinsic" 
-                                    width={550} 
-                                    height={450} 
+                                    layout="responsive" 
+                                    width={'100%'} 
+                                    height={'100%'} 
                                     className="rounded-image"
                                   />
                 </div>
