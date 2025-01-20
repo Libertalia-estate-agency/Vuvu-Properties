@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { FooterFive, Header, Wrapper } from '../../layout';
 import { animationCreate } from '../../utils/utils';
 import Breadcrumb from '../common/breadcrumb/breadcrumb';
-import ProductDetailsArea from './product-details-area';
+import CoursesArea from './course-area';
 
 
-const ProductsDetails = ({product}) => {
+const Products = () => {
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
@@ -15,11 +15,11 @@ const ProductsDetails = ({product}) => {
   return (
     <Wrapper>
       <Header />
-      <Breadcrumb title={product?.title ? product?.title : 'Product Details'} />
-      <ProductDetailsArea product={product}/>
+      <Breadcrumb title={'Course Overview'} />
+      <CoursesArea/>
       <FooterFive />
     </Wrapper>
   );
 };
 
-export default ProductsDetails;
+export default Products;

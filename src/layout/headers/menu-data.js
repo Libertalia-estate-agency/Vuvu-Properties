@@ -34,7 +34,7 @@ const menu_data = [
     sub_menus:[
       {link:'/',title:'Residential Property Sales'},
       {link:'/',title:'Commercial Property Sales'},
-      {link:'/',title:'Real Estate Training Academy'},
+      {link:'/academy',title:'Real Estate Training Academy'},
       {link:'/',title:'Property Valuation Services'},
       {link:'/',title:'Advisory & Consultation'},
       {link:'/',title:'Property Management Services'},
@@ -57,7 +57,7 @@ const menu_data = [
     mega_menu:false,
     has_dropdown:false,
     title:'Contact Us',
-    link:'/',
+    link:'/contact',
   }
 ]
 

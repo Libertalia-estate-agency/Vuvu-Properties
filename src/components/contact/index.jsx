@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderSix, Wrapper } from '../../layout';
 import { animationCreate } from '../../utils/utils';
 import Breadcrumb from '../common/breadcrumb/breadcrumb';
 import ContactArea from './contact-area';
+import { Footer, FooterFive, Header, Wrapper } from '../../layout';
 
 
 const Contact = () => {
@@ -15,10 +15,10 @@ const Contact = () => {
 
   return (
     <Wrapper>
-      <HeaderSix />
-      <Breadcrumb title={'Contact'} />
+      <Header />
+      <Breadcrumb title={'Contact Us'} />
       <ContactArea/>
-      <FooterThree />
+      <FooterFive />
     </Wrapper>
   );
 };

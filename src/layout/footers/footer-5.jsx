@@ -40,10 +40,9 @@ const FooterFive = () => {
                   <div className="tp-copyright-logo text-center text-lg-start">
                     <Link href="/">
                       <div className="logo-container d-flex align-items-center">
-                          <FaHome className="home-icon"
-                            style={{ width: '60px', height: '60px', color:'amber' }}
-                          />
-                          <span className="company-name" style={{ color:'amber'}}>Vuvu Properties</span>
+                        <Link href={'/'}>
+                          <a><img src="/assets/img/logo/vuvu.png" alt="" /></a>
+                        </Link>
                       </div>
                     </Link>
                   </div>

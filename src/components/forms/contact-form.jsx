@@ -25,12 +25,12 @@ const ContactForm = () => {
     <form id="contact-form" onSubmit={handleSubmit}>
       <div className='mb-30'>
         <input value={values.name} onChange={handleChange} onBlur={handleBlur}
-          name="name" type="text" placeholder="Enter your Name" />
+          name="name" type="text" placeholder="Enter your Full Name" />
         {touched.name && <ErrorMsg error={errors.name} />}
       </div>
       <div className='mb-30'>
         <input value={values.email} onChange={handleChange} onBlur={handleBlur}
-          name="email" type="email" placeholder="Enter your Mail" />
+          name="email" type="email" placeholder="Enter your Email Address" />
         {touched.email && <ErrorMsg error={errors.email} />}
       </div>
       <div className='mb-30'>
@@ -38,7 +38,7 @@ const ContactForm = () => {
           placeholder="Enter your Massage"></textarea>
         {touched.msg && <ErrorMsg error={errors.msg} />}
       </div>
-      <button type="submit" className="tp-btn-yellow">Send Massage</button>
+      <button type="submit" className="tp-btn-yellow text-white">Send Massage</button>
     </form>
   );
 };

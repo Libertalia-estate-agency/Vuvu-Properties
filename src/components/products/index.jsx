@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderSix, Wrapper } from '../../layout';
+import { FooterFive, Header, Wrapper } from '../../layout';
 import { animationCreate } from '../../utils/utils';
 import Breadcrumb from '../common/breadcrumb/breadcrumb';
-import ProductsArea from './product-area';
+import CourseArea from './course-area';
 
-
-const Products = () => {
+const Courses = () => {
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
@@ -14,10 +13,10 @@ const Products = () => {
 
   return (
     <Wrapper>
-      <HeaderSix />
-      <Breadcrumb title={'Collax Product'} />
-      <ProductsArea/>
-      <FooterThree />
+      <Header />
+      <Breadcrumb title={'Courses Overview'} />
+      <CouseArea/>
+      <FooterFive />
     </Wrapper>
   );
 };

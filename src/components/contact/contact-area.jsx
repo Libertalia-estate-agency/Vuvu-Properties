@@ -13,24 +13,24 @@ const ContactArea = () => {
                   <img src="/assets/img/contact/contact-1.jpg" alt="" />
                 </div>
                 <div className="tp-contact-info mb-40">
-                  <h4 className="contact-title">Mail Address</h4>
-                  <span><a href="mailto:(webmail@gmail.com)">(webmail@gmail.com)</a></span>
-                  <span><a href="mailto:(infoweb@gmail.com)">(infoweb@gmail.com)</a></span>
+                  <h4 className="contact-title">Support Email`</h4>
+                  <span><a href="mailto:(webmail@gmail.com)">(info@vuvuproperties.co.za)</a></span>
+                  <span><a href="mailto:(infoweb@gmail.com)">(support@vuvuproperties.co.za)</a></span>
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Phone Number</h4>
-                  <span><a href="tel:(+1255-568-6523)">(+1255 - 568 - 6523)</a></span>
-                  <span><a href="tel:(+1255-568-6523)">(+1255 - 568 - 6523)</a></span>
+                  <span><a href="tel:(+1255-568-6523)">(+27 83 272 9115)</a></span>
+                  <span><a href="tel:(+1255-568-6523)">(+27 73 999 8954)</a></span>
                 </div>
                 <div className="tp-contact-info">
                   <h4 className="contact-title">Address line</h4>
-                  <span><a href="https://www.google.com/maps" target="blank">Bowery St, New York, NY 10013,USA. Bowery Steae</a></span>
+                  <span><a href="https://www.google.com/maps" target="blank">7 Quail Close, Meyersdal Eco Estate, 1448</a></span>
                 </div>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6">
               <div className="tpcontact">
-                <h4 className="tp-contact-big-title">Let’s Talk...</h4>
+                <h4 className="tp-contact-big-title">Connect With Us</h4>
                 <div className="tpcontact__form tpcontact__form-3">
                   {/* ContactForm start */}
                   <ContactForm />
