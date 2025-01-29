@@ -3,8 +3,8 @@ const portfolio_data = [
   // Website Design
   {
     id: 1,
-    img: '/assets/img/project/office3.jpeg',
-    title: 'Johannesburg, Bryanston',
+    img: '/assets/img/project/luxury4.jpg',
+    title: 'Waterfall City, Midrand',
     sm_text: `Nestled in one of Johannesburg's most sought-after suburbs, our premium property listings in Bryanston offer an exceptional blend of luxury, comfort, and convenience.`,
     category: 'Premium Listings',
     big: true,
@@ -12,8 +12,8 @@ const portfolio_data = [
   },
   {
     id: 2,
-    img: '/assets/img/project/office8.jpg',
-    title: 'Midrand, Waterfall City',
+    img: '/assets/img/project/luxury5.jpg',
+    title: 'Bryanston, Sandton',
     sm_text: ' Explore stunning homes, modern apartments, and spacious estates tailored for discerning buyers and renters who value exclusivity and sophistication. ',
     category: 'Premium Listings',
     sm: true,
@@ -21,7 +21,7 @@ const portfolio_data = [
   },
   {
     id: 3,
-    img: '/assets/img/project/office7.jpg',
+    img: '/assets/img/project/luxury6.jpg',
     title: 'Johannesburg, Sandton',
     sm_text: 'Find your dream property today in the vibrant, upscale neighborhood of Sandton, Bryanston.',
     category: 'Premium Listings',
