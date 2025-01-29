@@ -7,7 +7,7 @@ const categories = [...new Set(project_items.map(item => item.category))]
 const imagePerRow = 4;
 
 const MasonryItems = () => {
-  const [category, setCategory] = useState('Website');
+  const [category, setCategory] = useState('Luxury');
   const categoryItems = project_items.filter(item => item.category === category);
   const [items, setItems] = useState(categoryItems);
   const [next, setNext] = useState(imagePerRow);
@@ -44,14 +44,14 @@ const MasonryItems = () => {
               return <div key={id} className={`${big ? 'col-xl-8 col-lg-8 col-md-12' : 'col-xl-4 col-lg-4 col-md-6'}`}>
                 <div className="tp-project-item-four mb-30">
                   <div className="tp-project-item-four__img fix">
-                    <Link href={`/portfolio-details/${id}`}>
+                    <Link href={`#`}>
                       <a><img className="w-100" src={img} alt="" /></a>
                     </Link>
                   </div>
                   <div className="tp-project-item-four__bg">
                     <div className="tp-project-item-four__bg-info">
                       <h3 className="tp-project-title">
-                        <Link href={`/portfolio-details/${id}`}>
+                        <Link href={`#`}>
                           <a>{title}</a>
                         </Link>
                       </h3>
@@ -65,7 +65,7 @@ const MasonryItems = () => {
           {next < items.length && <div className="row">
             <div className="col-12">
               <div className="tp-project-button text-center mt-25">
-                <button onClick={handleLoadData} className="tp-btn-yellow">Lode more</button>
+                <button onClick={handleLoadData} className="tp-btn-yellow">Load more</button>
               </div>
             </div>
           </div>}

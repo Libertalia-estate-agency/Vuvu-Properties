@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderSix, Wrapper } from '../../../layout';
+import { FooterFive, Header, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 import Breadcrumb from '../../common/breadcrumb/breadcrumb';
 import MasonryItems from './masonry-items';
@@ -14,10 +14,10 @@ const PortfolioMasonry = () => {
 
   return (
     <Wrapper>
-      <HeaderSix />
-      <Breadcrumb title={'Portfolio Masonry'} />
-      <MasonryItems/>
-      <FooterThree />
+      <Header />
+      <Breadcrumb title={"Gauteng"} />
+      <MasonryItems />
+      <FooterFive />
     </Wrapper>
   );
 };

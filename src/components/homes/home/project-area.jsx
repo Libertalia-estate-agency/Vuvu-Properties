@@ -57,12 +57,12 @@ const ProjectArea = () => {
                   </div>
                   <div className="tp-project-content ml-20">
                     <h2 className="pro-lg-title">
-                      <Link href={`/portfolio-details/${item.id}`}>
+                      <Link href={`/portfolio-masonry`}>
                         <a>Johannesburg, Midrand</a>
                       </Link>
                     </h2>
                     <p>Midrand is the perfect blend of contemporary lifestyle and prime location. Our exclusive listings feature elegant homes, stylish apartments, and serene estates, all situated in one of Johannesburg&apos;s fastest-growing regions.</p>
-                    <Link href={`/portfolio-details/${item.id}`}>
+                    <Link href={`/portfolio-masonry`}>
                       <a className="tp-btn-sm">View Properties <i className="far fa-arrow-right"></i></a>
                     </Link>
                   </div>
@@ -79,12 +79,12 @@ const ProjectArea = () => {
                       </div>
                       <div className="tp-project-sm-content">
                         <h3 className="pro-sm-title">
-                          <Link href={`/portfolio-details/${item.id}`}>
+                          <Link href={`/portfolio-masonry`}>
                             <a>{item.title}</a>
                           </Link>
                         </h3>
                         <p>{item.sm_text}</p>
-                        <Link href={`/portfolio-details/${item.id}`}>
+                        <Link href={`/portfolio-masonry`}>
                           <a className="tp-btn-white-sm">View More 
                           <i className="far fa-arrow-right"></i></a>
                         </Link>
