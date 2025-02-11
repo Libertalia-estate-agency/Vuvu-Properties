@@ -21,9 +21,9 @@ const portfolio_data = [
   },
   {
     id: 3,
-    img: '/assets/img/project/luxury6.jpg',
-    title: 'Johannesburg, Sandton',
-    sm_text: 'Find your dream property today in the vibrant, upscale neighborhood of Sandton, Bryanston.',
+    img: '/assets/img/project/luxury2.jpg',
+    title: 'Sandhurst, Sandton',
+    sm_text: 'Find your dream property today in the vibrant, upscale neighborhood of Sandhurst.',
     category: 'Premium Listings',
     sm: true,
     home: true,
