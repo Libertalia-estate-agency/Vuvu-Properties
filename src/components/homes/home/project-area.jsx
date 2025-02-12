@@ -63,7 +63,7 @@ const ProjectArea = () => {
                     </h2>
                     <p>Midrand is the perfect blend of contemporary lifestyle and prime location. Our exclusive listings feature elegant homes, stylish apartments, and serene estates, all situated in one of Johannesburg&apos;s fastest-growing regions.</p>
                     <Link href={`/portfolio-masonry`}>
-                      <a className="tp-btn-sm">View Properties <i className="far fa-arrow-right"></i></a>
+                      <a className="tp-btn-sm bg-black">View Properties <i className="far fa-arrow-right"></i></a>
                     </Link>
                   </div>
                 </div>

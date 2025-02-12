@@ -49,7 +49,7 @@ const Index = () => {
     >
       {brand_images.map((brand, i) => (
         <SwiperSlide key={i}>
-          <div className="tp-brand-icon text-center">
+          <div className="tp-brand-icon text-center m-3">
             <Image 
               src={brand}
               height={180}

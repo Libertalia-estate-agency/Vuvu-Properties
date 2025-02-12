@@ -8,7 +8,13 @@ import HeroArea from './hero-area';
 import NewsLetter from './news-letter';
 import ProjectArea from './project-area';
 import ServicesArea from './services-area';
+import ServiceArea from './service-area';
+
 import Testimonial from './testimonial';
+
+import Specialities from './specialty';
+import MissionArea from './mission-area';
+import ServicingArea from './servicing-area';
 
 const Home = () => {
   useEffect(() => {
@@ -20,6 +26,11 @@ const Home = () => {
     <Wrapper>
       <Header />
       <HeroArea />
+      <MissionArea /> 
+      <Specialities />
+      <ServicingArea />
+      <ServiceArea />
+
       <CreativeArea/>
       
       <ServicesArea/>
