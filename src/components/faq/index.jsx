@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderSix, Wrapper } from '../../layout';
+import { FooterFive, Header, Wrapper } from '../../layout';
 import { animationCreate } from '../../utils/utils';
 import Breadcrumb from '../common/breadcrumb/breadcrumb';
 import Cta from '../common/cta/cta';
@@ -16,11 +16,11 @@ const Faq = () => {
 
   return (
     <Wrapper>
-      <HeaderSix />
-      <Breadcrumb title={'Ask Question'} />
+      <Header />
+      <Breadcrumb title={'Frequently Asked Questions'} />
       <FaqArea />
       <Cta/>
-      <FooterThree />
+      <FooterFive />
     </Wrapper>
   );
 };

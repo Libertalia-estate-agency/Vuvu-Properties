@@ -45,7 +45,7 @@ module.exports = [
   },
   {
     id: 2,
-    img: '/assets/img/product/product3.jpg',
+    img: '/assets/img/product/product11.jpg',
     title: 'Advanced Real Estate Agent Training',
     price: '12 Weeks',
     sm_desc: 'Designed for individuals who wish to become certified real estate agents or improve their existing skills.',
@@ -88,7 +88,7 @@ module.exports = [
   },  
   {
     id: 3,
-    img: '/assets/img/product/product4.jpg',
+    img: '/assets/img/product/product12.jpg',
     title: 'Property Investment Strategies',
     price: '8 Weeks',
     sm_desc: 'A practical course for aspiring and experienced investors looking to maximize their real estate portfolios.',
@@ -174,7 +174,7 @@ module.exports = [
   },  
   {
     "id": 5,
-    "img": "/assets/img/product/product6.jpg",
+    "img": "/assets/img/product/product13.jpg",
     "title": "Advanced Real Estate Investment Strategies",
     "price": "8 Weeks",
     "sm_desc": "Master advanced investment strategies to maximize returns in the real estate market.",
@@ -346,7 +346,7 @@ module.exports = [
   },
   {
     "id": 9,
-    "img": "/assets/img/product/product10.jpg",
+    "img": "/assets/img/product/product3.jpg",
     "title": "Property Management Essentials",
     "price": "5 Weeks",
     "sm_desc": "Learn the key skills for managing residential and commercial properties efficiently and effectively.",

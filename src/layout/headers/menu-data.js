@@ -47,8 +47,8 @@ const menu_data = [
     title:'Resources',
     link:'/',
     sub_menus: [
-      {link:'/',title:'News'},
-      {link:'/',title:'FAQ'},
+      {link:'/blog',title:'News'},
+      {link:'/faq',title:'FAQ'},
       {link:'/404',title:'Privacy Policy'},
     ]
   },

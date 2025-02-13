@@ -4,7 +4,7 @@ import BlogSidebar from './blog-sidebar';
 import BlogItems from './blog-items';
 
 // blog_items
-const blog_items = blog_data.filter(blog => blog.blog_page);
+const blog_items = blog_data.filter(blog => blog.home);
 
 const BlogArea = () => {
 
@@ -16,7 +16,7 @@ const BlogArea = () => {
             <div className="col-xxl-8 col-xl-8 col-lg-8">
               <div className="postbox__wrapper pr-20">
                 {/*BlogItems start  */}
-                <BlogItems itemsPerPage={2} items={blog_items} />
+                <BlogItems itemsPerPage={4} items={blog_items} />
                 {/*BlogItems end  */}
               </div>
             </div>

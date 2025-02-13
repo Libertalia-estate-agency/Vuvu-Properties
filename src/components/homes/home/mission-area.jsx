@@ -65,6 +65,7 @@ const MissionArea = () => {
     <div className="tp-mission-area pt-130 p-relative">
       {shapes.map((s, i) => (
         <div key={i} className={`bp-mission-shape-${i+1} d-none d-lg-block`}>
+                        <div className="col-xl-5 col-lg-5">
                         <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
                             <Image 
                               src={`/assets/img/mission/${s}`} 
@@ -72,8 +73,9 @@ const MissionArea = () => {
                               layout="responsive"  
                               width={550} 
                               height={450} 
-                              className="rounded-image"
+                              className="rounded-image border"
                             />
+                      </div>
                       </div>
         </div>
       ))}

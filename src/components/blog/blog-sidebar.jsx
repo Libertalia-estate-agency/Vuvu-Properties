@@ -4,15 +4,15 @@ import { blog_data } from '../../data';
 
 const sidebar_contents = {
   widget_contents: [
-    { title: 'Web Design', count: '26' },
-    { title: 'Development', count: '15' },
-    { title: 'Branding', count: '20' },
-    { title: 'Motion Design', count: '18' },
-    { title: 'UI/UX Design', count: '30' },
-    { title: 'Graphic Design', count: '99' },
+    { title: 'Market Trends & Insights', count: '4' },
+    { title: 'Buying & Selling Tips', count: '5' },
+    { title: 'Rental Advice & Tenant Guides', count: '8' },
+    { title: 'Property Investment', count: '13' },
+    { title: 'Real Estate Law & Compliance', count: '7' },
+    { title: 'Success Stories', count: '10' },
   ],
   rc_post: blog_data.slice(0, 3),
-  tags: ['landing', 'Charity', 'apps', 'Education', 'data', 'Design', 'website', 'landing page']
+  tags: ['#PropertyMarketUpdates', '#HomeBuyingTips', '#RentalGuides', '#InvestmentStrategies', '#RealEstateLaws', '#FirstTimeBuyers', '#LandlordAdvice', '#VuvuAcademy']
 }
 
 const { widget_contents, rc_post, tags } = sidebar_contents;
@@ -27,7 +27,7 @@ const BlogSidebar = () => {
           <div className="sidebar__search">
             <form>
               <div className="sidebar__search-input-2">
-                <input type="text" placeholder="Search your keyword..." />
+                <input type="text" placeholder="Search your keywords ..." />
                 <button type="submit"><i className="far fa-search"></i></button>
               </div>
             </form>
@@ -50,7 +50,7 @@ const BlogSidebar = () => {
       </div>
 
       <div className="sidebar__widget mb-40">
-        <h3 className="sidebar__widget-title">Recent Post</h3>
+        <h3 className="sidebar__widget-title">Recent Posts</h3>
         <div className="sidebar__widget-content">
           <div className="sidebar__post rc__post">
             {rc_post.map((post) => (

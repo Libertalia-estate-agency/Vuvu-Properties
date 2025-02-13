@@ -1,14 +1,54 @@
 import React from 'react';
 
 const accordion_items = [
-  { id: 'one', show: true, title: 'Is my data safe?', desc: "A dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and delivers business results." },
-  { id: 'two', title: 'How does the 30-day free software trial work?', desc: "A dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and delivers business results." },
-  { id: 'three', title: 'What happens after my free trial?', desc: "A dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and delivers business results." },
-  { id: 'four', title: 'What makes LessAccounting better than the rest?', desc: "A dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and delivers business results." },
-  { id: 'five', title: 'Is my data safe?', desc: "A dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and delivers business results." },
-  { id: 'six', title: 'How does the 30-day free software trial work?', desc: "A dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and delivers business results." },
-  { id: 'seven', title: 'What happens after my free trial?', desc: "A dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and delivers business results." },
-  { id: 'eight', title: 'What makes LessAccounting better than the rest?', desc: "A dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and delivers business results." },
+    { 
+      id: 'one', 
+      show: true, 
+      title: 'How do I list my property with Vuvu Properties?', 
+      desc: "Listing your property with Vuvu Properties is simple. Contact our team, and we will guide you through the process, including property valuation, marketing, and finding the right buyers or tenants." 
+    },
+    { 
+      id: 'two', 
+      show: false, 
+      title: 'What services does Vuvu Properties offer besides sales?', 
+      desc: "Beyond property sales, we offer rentals and leasing, property management, real estate training, and market analysis to help clients make informed real estate decisions." 
+    },
+    { 
+      id: 'three', 
+      show: false, 
+      title: 'What documents do I need to buy a property?', 
+      desc: "To purchase a property, you will need a valid South African ID, proof of income, a pre-approved home loan (if applicable), and FICA-compliant documentation such as proof of residence." 
+    },
+    { 
+      id: 'four', 
+      show: false, 
+      title: 'Does Vuvu Properties assist with property financing?', 
+      desc: "Yes, we can connect you with reputable financial institutions and guide you through the home loan application process to help secure financing for your property purchase." 
+    },
+    { 
+      id: 'five', 
+      show: false, 
+      title: 'How does Vuvu Properties screen tenants for rental properties?', 
+      desc: "We conduct thorough tenant screening, including credit checks, employment verification, rental history reviews, and reference checks to ensure reliable tenants for landlords." 
+    },
+    { 
+      id: 'six', 
+      show: false, 
+      title: 'What are the benefits of enrolling in the Vuvu Properties Training Academy?', 
+      desc: "Our Training Academy provides aspiring real estate professionals with accredited courses, mentorship programs, and hands-on experience to help them succeed in the industry." 
+    },
+    { 
+      id: 'seven', 
+      show: false, 
+      title: 'How can I determine the market value of my property?', 
+      desc: "We offer professional property valuation services, including Comparative Market Analysis (CMA) and expert insights, to help you determine the accurate market value of your property." 
+    },
+    { 
+      id: 'eight', 
+      show: false, 
+      title: 'What legal requirements should I be aware of when buying or selling property?', 
+      desc: "Buying or selling property involves legal requirements such as FICA compliance, transfer duties, and property registration. Our team can guide you through the legal process to ensure compliance." 
+    }
 ]
 
 const FaqArea = () => {

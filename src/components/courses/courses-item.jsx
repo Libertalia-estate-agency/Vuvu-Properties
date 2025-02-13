@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import PaginationArea from '../../ui/pagination';
 import { add_cart_product, get_cart_products } from '../../redux/features/cart-slice';
 import { add_wishlist, get_wishlist_products } from '../../redux/features/wishlist-slice';
+import Image from 'next/image';
 
 const CourseItem = ({ itemsPerPage, items }) => {
   const [currentItems, setCurrentItems] = useState(null);
@@ -63,7 +64,14 @@ const CourseItem = ({ itemsPerPage, items }) => {
           data-wow-duration={duration} data-wow-delay={delay}>
           <div className="tpproduct text-center mb-30">
             <div className="tpproduct__img">
-              <img className="w-100" src={img} alt="" />
+              <Image 
+                                    src={img} 
+                                    alt="Hero Image" 
+                                    layout="responsive"  
+                                    width={600} 
+                                    height={600} 
+                                    className="rounded-image" 
+                                  />
               <div className="tp-product-icon">
                 <button onClick={() => handleAddProduct(item)}>
                   <i className={isCartSelected ? 'fas fa-check' : "fal fa-shopping-basket"} style={{ color: 'white'}}></i>

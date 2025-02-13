@@ -7,12 +7,12 @@ const ser_items = services_data.filter(ser => ser.home_5);
 
 const contents = {
   shapes: ['chose/bp-chose-5.1.png', 'hero/hero-shape-5.2.png'],
-  subtitle: 'Our Services',
-  title: <>Grow your <span className="tp-section-highlight"> business
+  subtitle: 'Property Services',
+  title: <>Elevate Your  <span className="tp-section-highlight"> Property Journey
     <svg width="170" height="12" viewBox="0 0 170 12" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0L170 12H0V0Z" fill="#89CEFB" />
     </svg>
-  </span> with our best service</>,
+  </span> With Our Expert Service</>,
   ser_logo: '/assets/img/service/service-logo.png',
 }
 
