@@ -48,13 +48,7 @@ const AboutArea = () => {
               <div className="ac-testimonial-info">
                 <div className="actestimonial">
                   <div className="actestimonial__icon">
- <Image 
-                                                    src={client_icon} 
-                                                    alt="Hero Image" 
-                                                    layout="responsive"  
-                                                    width={550} 
-                                                    height={450}
-                                                  />                    
+                    <img src={client_icon} alt="" />
                     
                   </div>
                   <div className="actestimonial__position">
