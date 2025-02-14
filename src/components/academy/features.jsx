@@ -1,13 +1,9 @@
 import React from 'react';
 import { FeatureOne, FeatureThree, FeatureTwo } from '../../svg';
 import Link from 'next/link';
-import Image from 'next/image';
-
-
-
+import Image from 'next/image'
 const feature_contents = {
   feature_img:'/assets/img/feature/fea-1.png',
-  feature: '/assets/img/hero/hero-shape-4.png',
   subtitle:'Alumni Benefits',
   title:'Alliances & ',
   highlight_text:'Partners',
@@ -39,14 +35,8 @@ const FeatureArea = () => {
   return (
     <div className="tp-feature-arae pt-130 pb-100 p-relative">
       <div className="ce-chose-shape d-none d-lg-block">
-        <Image 
-                                                  src={feature} 
-                                                  alt="Hero Image" 
-                                                  layout="responsive" 
-                                                  width={'100%'} 
-                                                  height={'100%'} 
-                                                  className="rounded-image"
-                                                />
+        <img src="/assets/img/hero/hero-shape-4.png" alt=""/>
+        
       </div>
       <div className="container">
         <div className="row">
