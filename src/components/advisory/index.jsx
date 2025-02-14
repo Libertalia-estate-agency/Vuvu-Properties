@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderSix, Wrapper } from '../../layout';
+import { FooterFive, Header, Wrapper } from '../../layout';
 import { animationCreate } from '../../utils/utils';
 import Breadcrumb from '../common/breadcrumb/breadcrumb';
 import CtaTwo from '../common/cta/cta-2';
@@ -8,7 +8,7 @@ import TestimonialArea from '../homes/home-4/testimonial-area';
 import ServicesItems from './services-items';
 
 
-const ServiceFour = () => {
+const Advisory = () => {
 
   useEffect(() => {
     setTimeout(() => {
@@ -18,15 +18,15 @@ const ServiceFour = () => {
 
   return (
     <Wrapper>
-      <HeaderSix />
-      <Breadcrumb title={'Service 04'} />
+      <Header />
+      <Breadcrumb title={'Advisory & Consultation'} />
       <ServicesItems/>
-      <CaseArea padd={'pt-130'} />
+      <CaseArea/>
       <TestimonialArea style_2={true}/>
       <CtaTwo/>
-      <FooterThree />
+      <FooterFive />
     </Wrapper>
   );
 };
 
-export default ServiceFour;
+export default Advisory;

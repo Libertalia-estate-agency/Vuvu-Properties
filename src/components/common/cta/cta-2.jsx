@@ -11,16 +11,15 @@ const CtaTwo = () => {
             <div className="tp-news-sub-wrapper pr-50">
               <div className="tp-news-letter-section-box">
                 <h5 className="tp-subtitle subtitle-secondary-color wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">Get every update</h5>
-                <h2 className="tp-title-sm tp-title-sm tp-white-text pb-25 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">A recognizable & awarded partner..
-                  become our partner
+                <h2 className="tp-title-sm tp-title-sm tp-white-text pb-25 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">Find Your Dream Property with Vuvu Properties
                 </h2>
               </div>
               <div className="tp-news-button wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
                 <Link href="/contact">
-                  <a className="tp-btn-lg-yellow mr-20">Become a Partner</a>
+                  <a className="tp-btn-lg-yellow mr-20">Browse Listings</a>
                 </Link>
                 <Link href="/about-me">
-                  <a className="tp-btn-sky">Press Office</a>
+                  <a className="tp-btn-sky">Get a Free Valuation</a>
                 </Link>
               </div>
             </div>

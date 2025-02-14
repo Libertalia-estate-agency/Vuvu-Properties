@@ -39,7 +39,7 @@ const CaseArea = ({ padd }) => {
           <div className="row">
             <div className="col-12">
               <div className="case-button text-center pt-30">
-                <button className="tp-btn-sky">View all Casestdies</button>
+                <button className="tp-btn-sky">View All Case Studies</button>
               </div>
             </div>
           </div>

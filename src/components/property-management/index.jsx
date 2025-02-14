@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderSix, Wrapper } from '../../layout';
+import { FooterFive, Header, Wrapper } from '../../layout';
 import { animationCreate } from '../../utils/utils';
 import Breadcrumb from '../common/breadcrumb/breadcrumb';
 import CtaTwo from '../common/cta/cta-2';
@@ -18,13 +18,13 @@ const ServiceFour = () => {
 
   return (
     <Wrapper>
-      <HeaderSix />
-      <Breadcrumb title={'Service 04'} />
+      <Header />
+      <Breadcrumb title={'Property Management'} />
       <ServicesItems/>
       <CaseArea padd={'pt-130'} />
       <TestimonialArea style_2={true}/>
       <CtaTwo/>
-      <FooterThree />
+      <FooterFive />
     </Wrapper>
   );
 };

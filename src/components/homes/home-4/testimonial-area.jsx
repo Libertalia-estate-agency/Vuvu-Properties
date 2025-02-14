@@ -4,48 +4,49 @@ import { Pagination } from "swiper";
 import Link from 'next/link';
 
 const testimonial_contents = {
-  subtitle: 'Testimonial',
-  title: 'Check what',
-  highlight_text: 'client say',
+  subtitle: 'Testimonials',
+  title: 'What Our ',
+  highlight_text: ' Clients Had To Say',
   btn_text: 'More Testimonial',
   testimonial_data: [
     {
       id: 1,
       brand_img: '/assets/img/testimonial/testi-brands-1.png',
       ratings: [1, 2, 3, 4, 5],
-      desc: 'Wow. What a great experience with this copywriter. Muhammad Noman is a very talented copywriter. yesterday I got his first Email that was amazing... experience with him',
-      img: '/assets/img/testimonial/testi-4.2.png',
-      name: 'Leslie Alexander',
-      title: 'P. Desiger of (Amazon)'
+      desc: 'Vuvu Properties provided exceptional service! Their team guided me through the entire property buying process seamlessly. Highly recommended for anyone looking for professional real estate assistance.',
+      img: '/assets/img/testimonial/testi-3.png',
+      name: 'Sibongile Dlamini',
+      title: 'Real Estate Investor (Vuvu Properties)'
     },
     {
       id: 2,
       brand_img: '/assets/img/testimonial/testi-brands-2.png',
       ratings: [1, 2, 3, 4, 5],
-      desc: "Excellent UI/Ux Design. She literally transformed my App into a wonderful piece of art. She's got awesome Ui design skills. - Hardworking Dedicated Great Communication Skills",
-      img: '/assets/img/testimonial/testi-4.5.png',
-      name: 'Guy Hawkins',
-      title: 'Ux Designer of (Godaddy)'
+      desc: 'Sayipa’s expertise in the business sector has been invaluable. Their guidance helped us secure key partnerships and grow our reach significantly.',
+      img: '/assets/img/testimonial/testi-3.png',
+      name: 'Mandla Khumalo',
+      title: 'CEO (Sayipa)'
     },
     {
       id: 3,
       brand_img: '/assets/img/testimonial/testi-brands-3.png',
       ratings: [1, 2, 3, 4, 5],
-      desc: "Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a true professional. he is such a honest, decent and reliable. and he have greate experience.",
-      img: '/assets/img/testimonial/testi-4.1.png',
-      name: 'Kristin Watson',
-      title: 'CEO of (Zlitemes)'
+      desc: 'Libertalia Properties goes above and beyond for their clients. Their in-depth knowledge of the real estate market helped us find the perfect commercial space in Johannesburg.',
+      img: '/assets/img/testimonial/testi-3.png',
+      name: 'Thando Mthembu',
+      title: 'Managing Director (Libertalia Properties)'
     },
     {
       id: 4,
-      brand_img: '/assets/img/testimonial/testi-brands-1.png',
+      brand_img: '/assets/img/testimonial/testi-brands-4.png',
       ratings: [1, 2, 3, 4, 5],
-      desc: 'Wow. What a great experience with this copywriter. Muhammad Noman is a very talented copywriter. yesterday I got his first Email that was amazing... experience with him',
-      img: '/assets/img/testimonial/testi-4.2.png',
-      name: 'Leslie Alexander',
-      title: 'P. Desiger of (Amazon)'
+      desc: 'Tesile Solutions transformed our hiring process. Their Global Recruitment Portal is an absolute game-changer for connecting top talent with the right opportunities.',
+      img: '/assets/img/testimonial/testi-3.png',
+      name: 'Nomzamo Zulu',
+      title: 'HR Manager (Tesile Solutions)'
     }
   ]
+  
 }
 
 const { btn_text, highlight_text, subtitle, testimonial_data, title } = testimonial_contents;
@@ -74,11 +75,7 @@ const TestimonialArea = ({ home_6, style_2 = false }) => {
                   </span>
                 </h2>
               </div>
-              <div className="tp-testi-button-right-side">
-                <Link href="/testimonial">
-                  <a className={`${home_6 || style_2 ? 'tp-btn-yellow' : 'tp-btn'}`}>{btn_text}</a>
-                </Link>
-              </div>
+              
             </div>
           </div>
         </div>

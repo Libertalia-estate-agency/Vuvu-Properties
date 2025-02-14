@@ -32,12 +32,10 @@ const menu_data = [
     title:'Services',
     link:'#',
     sub_menus:[
-      {link:'/',title:'Residential Property Sales'},
-      {link:'/',title:'Commercial Property Sales'},
       {link:'/academy',title:'Real Estate Training Academy'},
-      {link:'/',title:'Property Valuation Services'},
-      {link:'/',title:'Advisory & Consultation'},
-      {link:'/',title:'Property Management Services'},
+      {link:'/property-valuation',title:'Property Valuation Services'},
+      {link:'/advisory',title:'Advisory & Consultation'},
+      {link:'/property-management',title:'Property Management Services'},
     ]
   },
   {

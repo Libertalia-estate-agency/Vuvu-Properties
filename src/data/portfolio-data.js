@@ -445,8 +445,8 @@ const portfolio_data = [
   {
     id: 51,
     img: '/assets/img/service/service-9.1.jpg',
-    title: 'Godaddy user flow solution',
-    subtitle:<>At Collax we specialize in designing, building, <br/> shipping and scaling beautifu</>,
+    title: 'Unlocking Maximum Value: A Pre-Sale Valuation Success',
+    subtitle:<>A Johannesburg homeowner struggled to sell their property after months on the market. Our detailed pre-sale valuation and pricing strategy helped them secure a buyer within 30 days at 12% above their original asking price.<br/> shipping and scaling beautifu</>,
     duration:'.3s',
     delay:'.5s',
     service_p: true,
@@ -454,8 +454,8 @@ const portfolio_data = [
   {
     id: 52,
     img: '/assets/img/service/service-9.2.jpg',
-    title: 'What is ui/ux design trend',
-    subtitle:<>At Collax we specialize in designing, building, <br/> shipping and scaling beautifu</>,
+    title: 'Investment Insights: Helping an Investor Make the Right Decision',
+    subtitle:<>A property investor wanted to purchase a multi-unit building but was unsure of its true market value. Our valuation report and rental yield analysis helped them negotiate a fair price, ensuring strong returns on their investment.</>,
     duration:'.5s',
     delay:'.7s',
     service_p: true,
@@ -463,8 +463,8 @@ const portfolio_data = [
   {
     id: 53,
     img: '/assets/img/service/service-9.3.jpg',
-    title: 'Create you design system like',
-    subtitle:<>At Collax we specialize in designing, building, <br/> shipping and scaling beautifu</>,
+    title: 'Bank Loan Approved: Accurate Mortgage Valuation for Financing',
+    subtitle:<>A first-time homebuyer needed an independent valuation for a home loan application. Our precise market assessment allowed them to secure full mortgage approval from their bank with no delays.</>,
     duration:'.7s',
     delay:'.9s',
     service_p: true,
