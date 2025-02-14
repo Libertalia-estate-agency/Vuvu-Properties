@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Image from 'next/image';
+
 const AboutMeArea = ({team}) => {
   // console.log(team);
   const {social_links,img,name,title} = team || {};
@@ -10,7 +12,13 @@ const AboutMeArea = ({team}) => {
           <div className="row align-items-center">
             <div className="col-xl-5 col-lg-5 col-12">
               <div className="ac-ab-img fix">
-                <img className='w-100' src={img} alt=""/>
+                <Image 
+                                                    src={img} 
+                                                    alt="Hero Image" 
+                                                    layout="responsive"  
+                                                    width={550} 
+                                                    height={450}
+                                                  />
               </div>
             </div>
             <div className="col-xl-7 col-lg-7 col-12">

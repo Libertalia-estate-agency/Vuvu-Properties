@@ -1,9 +1,13 @@
 import React from 'react';
 import { FeatureOne, FeatureThree, FeatureTwo } from '../../svg';
 import Link from 'next/link';
+import Image from 'next/image';
+
+
 
 const feature_contents = {
   feature_img:'/assets/img/feature/fea-1.png',
+  feature: '/assets/img/hero/hero-shape-4.png',
   subtitle:'Alumni Benefits',
   title:'Alliances & ',
   highlight_text:'Partners',
@@ -35,13 +39,27 @@ const FeatureArea = () => {
   return (
     <div className="tp-feature-arae pt-130 pb-100 p-relative">
       <div className="ce-chose-shape d-none d-lg-block">
-        <img src="/assets/img/hero/hero-shape-4.png" alt=""/>
+        <Image 
+                                                  src={feature} 
+                                                  alt="Hero Image" 
+                                                  layout="responsive" 
+                                                  width={'100%'} 
+                                                  height={'100%'} 
+                                                  className="rounded-image"
+                                                />
       </div>
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".5s" data-wow-delay=".5s">
             <div className="tp-fea-img">
-              <img src={feature_img} alt=""/>
+              <Image 
+                                                  src={feature_img} 
+                                                  alt="Hero Image" 
+                                                  layout="responsive" 
+                                                  width={'100%'} 
+                                                  height={'100%'} 
+                                                  className="rounded-image"
+                                                />
             </div>
           </div>
           <div className="col-xl-6 col-lg-6  wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">

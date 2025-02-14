@@ -6,6 +6,8 @@ import useModal from '../../hooks/use-modal';
 import VideoModal from '../common/modals/modal-video';
 import Link from 'next/link';
 
+import Image from 'next/image';
+
 const BlogItems = ({ itemsPerPage, items }) => {
   const [sliderLoop, setSliderLoop] = React.useState(false);
   React.useEffect(() => setSliderLoop(true), []);
