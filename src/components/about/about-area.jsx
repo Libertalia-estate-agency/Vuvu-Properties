@@ -2,6 +2,8 @@ import React from 'react';
 import useModal from '../../hooks/use-modal';
 import VideoModal from '../common/modals/modal-video';
 
+import Image from 'next/image';
+
 const contents = {
   title:'Where Expertise Meets Passion in Real Estate',
   video_title:'Our Story: Building Dreams, One Property at a Time',
@@ -62,7 +64,14 @@ const AboutArea = () => {
             </div>
             <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">
               <div className="ac-testimonial-right">
-                <img src={about_img} alt="" style={{ border:'2', borderWidth:'10' }}/>
+                <Image 
+                                    src={about_img} 
+                                    alt="Hero Image" 
+                                    layout="responsive"  
+                                    width={550} 
+                                    height={450}
+                                    style={{ border:'2', borderWidth:'10' }}
+                                  />
               </div>
             </div>
           </div>
