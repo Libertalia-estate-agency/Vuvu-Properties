@@ -12,12 +12,13 @@ const hero_contents = {
     { number: 'four z-index-1', img: '/assets/img/hero/hero-light-2.png' },
   ],
   title: 'Where Ownership Meets Excellence',
-  highlightText: 'Designer',
+  highlightText: '',
   hero_img: '/assets/img/hero/hero6.jpg',
   brands: [
-    { img: 'hero-icon-1', title: 'Dribbble',link: 'https://dribbble.com/' },
-    { img: 'hero-icon-2', title: 'Behance',link: 'https://www.behance.net/' },
-    { img: 'hero-icon-3', title: 'Massage',link: 'http://facebook.com' },
+    { img: 'hero-icon-1', title: 'LinkedIn',link: 'https://dribbble.com/' },
+    { img: 'hero-icon-2', title: 'Property24',link: 'https://www.behance.net/' },
+    { img: 'hero-icon-3', title: 'Sayipa',link: 'http://facebook.com' },
+    
   ]
 }
 

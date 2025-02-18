@@ -6,8 +6,8 @@ import VideoModal from '../../common/modals/modal-video';
 
 const hero_contents = {
   shapes: [{ img: 'hero-shape-4' }, { num: '-two', img: 'hero-shape-4.1' }],
-  title: <>Building Digital <span className="tp-highlight"> <HighlightTwo /> <i>Product,</i></span> Brand and Experience</>,
-  text: 'At collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
+  title: <>Building Dreams <span className="tp-highlight"> <HighlightTwo /> <i>Homes,</i></span> and Investments </>,
+  text: 'At Vuvu Properties, we specialize in buying, selling, and managing exceptional properties with precision, expertise, and client-focused service.',
   btn_text: 'How it Works',
   video_title: 'Behind the scenes',
   video_id: 'LJbkLdtEW00',
@@ -40,7 +40,7 @@ const HeroArea = () => {
                 <p className="wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".7s">{text}</p>
                 <div className="tp-hero-three-button-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".9s">
                   <Link href="/about">
-                    <a className="tp-btn mr-55">{btn_text}</a>
+                    <a className="tp-btn mr-55 text-black">{btn_text}</a>
                   </Link>
                   <div className="tp-hero-paly-button-four">
                     <button onClick={() => setIsVideoOpen(true)} className="popup-video">

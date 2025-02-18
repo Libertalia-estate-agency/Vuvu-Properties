@@ -5,9 +5,10 @@ import { HighlightTwo } from '../../../svg';
 import VideoModal from '../../common/modals/modal-video';
 
 const hero_contents = {
-  title: <>Collax helps your teams move work <span className="tp-highlight">
-    <HighlightTwo /><i>forward.</i></span></>,
-  text: 'At collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
+  title: <>Finding Homes, Creating
+ <span className="tp-highlight">
+    <HighlightTwo /><i>Business Value</i></span></>,
+  text: 'At Vuvu Properties, we specialize in sourcing, selling, and managing premium real estate with professionalism, efficiency, and a commitment to excellence.',
   btn_text: 'How it Works',
   video_title: 'Behind the scenes',
   video_id: 'LJbkLdtEW00',
@@ -35,7 +36,7 @@ const HeroArea = () => {
                 <div className="tp-hero-three-button-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
                   <div className="xs-bottom-space">
                     <Link href={'/contact'}>
-                      <a className="tp-btn-yellow-semilar mr-55">{btn_text}</a>
+                      <a className="tp-btn-yellow-semilar mr-55 text-white">{btn_text}</a>
                     </Link>
                   </div>
                   <div className="tp-hero-paly-button z-index-1">

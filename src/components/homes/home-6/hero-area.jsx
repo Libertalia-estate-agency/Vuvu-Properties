@@ -8,9 +8,9 @@ import VideoModal from '../../common/modals/modal-video';
 import Image  from 'next/image';
 
 const hero_contents = {
-  title: <>Providing unparalleled <span className="tp-highlight"> <HighlightSix /> <i>IT business solution</i>
-  </span> to maximum satisfaction</>,
-  sm_text: <>At collax we specialize in designing, building, shipping and scaling <br/> beautiful, usable products with blazing-fast efficiency</>,
+  title: <>Providing Unmatched <span className="tp-highlight"> <HighlightSix /> <i>Property Solutions</i>
+  </span> </>,
+  sm_text: <>At Vuvu Properties, we specialize in sourcing, selling, and managing premium properties with efficiency, professionalism, and client-focused service.</>,
   video_id: 'AFHnVR1vb84',
   video_title: 'Behind the scenes',
   hero_img: '/assets/img/hero/hero6.jpg',
@@ -59,7 +59,8 @@ const HeroArea = () => {
               <div className="tp-hero-right">
                 <div className="tp-bp-hero__img  p-relative wow tpfadeRight"
                   data-wow-duration=".9s" data-wow-delay="1s">
-                  <Image 
+                  <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
+                                    <Image 
                                       src={hero_img} 
                                       alt="Hero Image" 
                                       layout="responsive"  
@@ -67,6 +68,7 @@ const HeroArea = () => {
                                       height={450} 
                                       className="rounded-image"
                                     />
+                                    </div>
                 </div>
               </div>
             </div>

@@ -2,6 +2,8 @@ import Link from 'next/link';
 import React from 'react';
 import { ArrowRight, HighlightTwo } from '../../../svg';
 
+import Image from 'next/image'
+
 const hero_contents = {
   shapes: [
     'hero-shape-5.1.png',
@@ -9,10 +11,10 @@ const hero_contents = {
     'hero-shape-4.png',
     'hero-shape-5.2.png',
   ],
-  subtitle: <>Offer is going on till friday , <b>$84,99</b><span>/mo</span></>,
-  title: 'Business Planing',
+  subtitle: <>Explore Vuvu Properties Training Academy <b> </b><span></span></>,
+  title: 'Property Expert',
   highlight_text: 'Advisors',
-  short_text: <>At collax we specialize in designing, building, shipping and scaling <br /> beautiful, usable products with blazing.</>,
+  short_text: <>At Vuvu Properties, we specialize in helping clients buy, sell, and rent premium properties with professionalism, efficiency, and expertise.</>,
   hero_img: '/assets/img/hero/hero6.jpg',
   social_links: [
     { num: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
@@ -59,7 +61,7 @@ const HeroArea = () => {
               </div>
               <div className="tp-hero-section-box-five__input wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1s">
                 <form onSubmit={e => e.preventDefault()}>
-                  <input type="text" placeholder="themepure@gmail.com" />
+                  <input type="text" placeholder="Email Address" />
                   <button className="tp-btn-sky" type="submit">{submit_text}</button>
                 </form>
               </div>
@@ -70,20 +72,23 @@ const HeroArea = () => {
               <div className="tp-yellow-circle-five"></div>
               <div className="tp-hero-right-side-five__img wow tpfadeRight"
                 data-wow-duration=".9s" data-wow-delay="1.2s">
-                <img src={hero_img} alt="" />
-
+                <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
+                  <Image 
+                    src={hero_img} 
+                    alt="Hero Image" 
+                    layout="responsive"  
+                    width={550} 
+                    height={450} 
+                    className="rounded-image"
+                  />
+              </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="tp-hero-icon-five">
-          <div className="tp-hero-social bp-hero-social tp-hero-social-bg-color">
-            {social_links.map((l, i) => (
-              <a key={i} className={`social-icon-${l.num} ${l.title === 'Behance' ? 'd-md-none' : ''}`} 
-              href={l.link} target="_blank" rel="noreferrer">
-                <i className={l.icon}></i><span>{l.title}</span>
-              </a>
-            ))}
+        <div className="tp-hero-icon-five m-10">
+          <div className="tp-hero-social bp-hero-social tp-hero-social-bg-color m-10">
+            
           </div>
         </div>
       </div>
