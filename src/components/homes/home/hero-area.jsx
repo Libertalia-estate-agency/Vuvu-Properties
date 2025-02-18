@@ -1,66 +1,78 @@
 import Link from 'next/link';
 import React from 'react';
+import { ArrowRight, HighlightTwo } from '../../../svg';
 
-import Image from 'next/image';
+import Image from 'next/image'
 
 const hero_contents = {
-  title: 'Where ownership meets excellence',
-  text: <>Vuvu Properties is a 100% Black female-owned real estate agency based in Johannesburg, dedicated to delivering exceptional property transaction services tailored to meet the unique needs of every client.</>,
-  btn_text: 'View Services',
-  btn_text_2: 'About Vuvu Properties',
-  social_links: [
-    { id: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
-    { id: 2, icon: 'fab fa-whatsapp social-icon-2', title: 'Whatsapp',link: 'http://whatsapp.com' },
-    { id: 3, icon: 'fab fa-tiktok social-icon-3', title: 'TikTok',link: 'https://www.tiktok.com/' },
-    { id: 4, icon: 'fab fa-linkedin social-icon-2', title: 'Linked In',link: 'http://linkedin.com' },
-    
+  shapes: [
+    'hero-shape-5.1.png',
+    'hero-shape-4.png',
+    'hero-shape-4.png',
+    'hero-shape-5.2.png',
   ],
+  subtitle: <>Explore Vuvu Properties Training Academy <b> </b><span></span></>,
+  title: 'Property Expert',
+  highlight_text: 'Advisors',
+  short_text: <>At Vuvu Properties, we specialize in helping clients buy, sell, and rent premium properties with professionalism, efficiency, and expertise.</>,
   hero_img: '/assets/img/hero/hero6.jpg',
+  social_links: [
+    { num: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
+    { num: 3, icon: 'fab fa-youtube social-icon-3', title: 'Youtube',link: 'https://www.youtube.com/' },
+    { num: 2, icon: 'fab fa-twitter social-icon-2', title: 'Twitter',link: 'http://twitter.com' },
+    { num: 2, icon: 'fab fa-behance social-icon-2', title: 'Behance',link: 'https://www.behance.net/' },
+  ],
+  submit_text: 'Free Consultation'
 }
 
-const { title, text, btn_text, btn_text_2, social_links, hero_img } = hero_contents;
+const { hero_img, highlight_text, shapes, short_text, subtitle, title, social_links, submit_text } = hero_contents;
 
 const HeroArea = () => {
   return (
-    <div className="tp-hero-area tp-hero-space p-relative z-index-1 fix">
-      <div className="tp-hero-shape">
-        <div className="shape-circle-yellow d-none"></div>
-        <div className="shape-circle-blue"></div>
-        <div className="shape-one"><img src="/assets/img/hero/shape-1.png" alt="" /></div>
-      </div>
-      <div className="tp-hero-wapper">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-7 col-lg-7">
-              <div className="tp-hero-content">
-                <div className="tp-hero-text">
-                  <h2 className="tp-hero-title wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">
-                    {title}
-                  </h2>
-                  <p className="wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">{text}</p>
-                  <div className="tp-hero-button mb-140 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
-                    <Link href="/">
-                      <a className="tp-btn mr-30" style={{ color: 'black', backgroundColor: 'burlywood'}}>{btn_text}</a>
-                    </Link>
-                    <Link href="/">
-                      <a className="tp-btn-grey" style={{ color: 'black', backgroundColor: 'burlywood'}}>{btn_text_2}
-                        <i className="far fa-arrow-right"></i></a>
-                    </Link>
-                  </div>
-                  <div className="tp-hero-social pb-30 wow tpfadeIn" data-wow-duration=".7s" data-wow-delay="1.2s">
-                    <div className="tp-hero-social bp-hero-social">
-                      {social_links.map((l, i) => (
-                        <a key={i} className={`social-icon-${l.id}`} href={l.link} target="_blank" rel="noreferrer">
-                          <i className={l.icon}></i><span>{l.title}</span>
-                        </a>
-                      ))}
-                    </div>
-                  </div>
+    <div className="tp-hero-area tp-hero-border p-relative">
+      {shapes.map((s, i) => (
+        <div key={i} className={`bp-hero-shape-${i + 1} d-none d-xxl-block`}>
+          <img src={`/assets/img/hero/${s}`} alt="" />
+        </div>
+      ))}
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-7 col-lg-7">
+            <div className="tp-hero-section-box-five mt-75">
+              <div className="tp-hero-section-box-five__subtitle-wrapper d-flex justify-content-between align-items-center mb-40 wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".5s">
+                <div className="tp-hero-section-box-five__subtitle">
+                  <h5>{subtitle}</h5>
+                </div>
+                <div className="tp-hero-section-box-five__subtitle-link">
+                  <Link href="/price">
+                    <a><ArrowRight /></a>
+                  </Link>
                 </div>
               </div>
+              <div className="tp-hero-section-box-five__title pb-45">
+                <h3 className="tp-hero-bs-title wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                  {title}
+                  <span className="tp-highlight">
+                    <svg className="highlight-space" width="266" height="12" viewBox="0 0 266 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0L266 12H0V0Z" fill="#FFDC60" /></svg>
+                    <i>{highlight_text}</i>
+                  </span>
+                </h3>
+                <p className="wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".9s">{short_text}</p>
+              </div>
+              <div className="tp-hero-section-box-five__input wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1s">
+                <form onSubmit={e => e.preventDefault()}>
+                  <input type="text" placeholder="Email Address" />
+                  <button className="tp-btn-sky" type="submit">{submit_text}</button>
+                </form>
+              </div>
             </div>
-            <div className="col-xl-5 col-lg-5">
-              <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
+          </div>
+          <div className="col-xl-5 col-lg-5 ">
+            <div className="tp-hero-right-side-five p-relative pt-100">
+              <div className="tp-yellow-circle-five"></div>
+              <div className="tp-hero-right-side-five__img wow tpfadeRight"
+                data-wow-duration=".9s" data-wow-delay="1.2s">
+                <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
                   <Image 
                     src={hero_img} 
                     alt="Hero Image" 
@@ -70,7 +82,13 @@ const HeroArea = () => {
                     className="rounded-image"
                   />
               </div>
+              </div>
             </div>
+          </div>
+        </div>
+        <div className="tp-hero-icon-five m-10">
+          <div className="tp-hero-social bp-hero-social tp-hero-social-bg-color m-10">
+            
           </div>
         </div>
       </div>
