@@ -1,6 +1,9 @@
 import React from 'react';
 import { Highlight } from '../../../svg';
 
+import Image from 'next/image';
+
+
 const hero_contents = {
   shapes: [
     { number: 'one', img: '/assets/img/hero/hero-light-1.png' },
@@ -8,9 +11,9 @@ const hero_contents = {
     { number: 'three z-index-1', img: '/assets/img/hero/Spiral.png' },
     { number: 'four z-index-1', img: '/assets/img/hero/hero-light-2.png' },
   ],
-  title: 'Hi 👋 I am collax, website and user interface',
+  title: 'Where Ownership Meets Excellence',
   highlightText: 'Designer',
-  hero_img: '/assets/img/hero/hero-3.png',
+  hero_img: '/assets/img/hero/hero6.jpg',
   brands: [
     { img: 'hero-icon-1', title: 'Dribbble',link: 'https://dribbble.com/' },
     { img: 'hero-icon-2', title: 'Behance',link: 'https://www.behance.net/' },
@@ -38,9 +41,17 @@ const HeroArea = () => {
                     <i className="tp-theme-color">{highlightText}</i>
                   </span>
                 </h3>
-                <div className="tp-hero-img mt-20 mb-80 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s"  >
-                  <img src={hero_img} alt="" />
-                </div>
+                  <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
+                                    <Image 
+                                      src={hero_img} 
+                                      alt="Hero Image" 
+                                      layout="responsive"  
+                                      width={550} 
+                                      height={450} 
+                                      className="rounded-image"
+                                    />
+                                </div>
+                
                 <div className="tp-hero-social-link wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
                   {brands.map((b, i) => (
                     <a key={i} className="tp-btn-white-brand" href={b.link} target="_blank" rel="noreferrer">

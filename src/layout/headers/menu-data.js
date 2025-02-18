@@ -1,10 +1,18 @@
 const menu_data = [
   {
     id:1,
-    mega_menu:false,
-    has_dropdown:false,
+    mega_menu:true,
+    has_dropdown:true,
     title:'Home',
     link:'/',
+    sub_menus:[
+      {link:'/',title:'Home 1'},
+      {link:'/home-2',title:'Home 2'},
+      {link:'/home-3',title:'Home 3'},
+      {link:'/home-4',title:'Home 4'},
+      {link:'/home-5',title:'Home 5'},
+      {link:'/home-6',title:'Home 6'},
+    ]
   },
   {
     id:2,

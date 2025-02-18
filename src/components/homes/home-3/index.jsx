@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderThree, Wrapper } from '../../../layout';
+import { FooterFive, Header, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 import BlogArea from './blog-area';
 import BrandArea from './brand-area';
@@ -19,16 +19,16 @@ const HomeThree = () => {
   
   return (
     <Wrapper>
-      <HeaderThree/>
-      <HeroArea/>
+      <Header/>
+      <HeroArea/>  {/* 
       <Services/>
       <ProjectArea/>
       <TeamArea/>
       <CountryArea/>
       <TestimonialArea/>
       <BrandArea/>
-      <BlogArea/>
-      <FooterThree/>
+      <BlogArea/>     */}
+      <FooterFive />
     </Wrapper>
   );
 };

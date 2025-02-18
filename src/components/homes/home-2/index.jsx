@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FooterTwo, HeaderTwo, Wrapper } from '../../../layout';
+import { FooterFive, Header, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 import BlogArea from './blog-area';
 import ClientFeedback from './client-feedback';
@@ -17,15 +17,16 @@ const HomeTwo = () => {
   }, [])
   return (
     <Wrapper>
-      <HeaderTwo />
+      <Header />
       <HeroArea />
+      {/* 
       <Services/>
       <ProjectArea/>
       <ClientFeedback/>
       <CtaArea/>
       <BlogArea/>
-      <NewsLetter/>
-      <FooterTwo/>
+      <NewsLetter/>   */}
+      <FooterFive/>
     </Wrapper>
   );
 };

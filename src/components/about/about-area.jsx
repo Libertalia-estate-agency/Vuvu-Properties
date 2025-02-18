@@ -10,7 +10,7 @@ const contents = {
   video_id:'8D6b3McyhhU',
   right_text_1:"Discover how Vuvu Properties, a 100% black female-owned agency, is redefining the real estate landscape in Johannesburg with client-focused solutions and unparalleled professionalism. We pride ourselves on delivering seamless property services tailored to meet the unique needs of each client.",
   right_text_2:"Our experienced team is passionate about helping buyers, sellers, and renters achieve their real estate goals with confidence and ease. We understand the local market intricately, ensuring that your property journey is as stress-free and rewarding as possible.",
-  client_icon:'/assets/img/about/testi-7.png',
+  client_icon:'/assets/img/about/profile.png',
   client_name:'Nomvula M.',
   client_title:'Executive Chairman',
   desc:"Our clients are at the heart of everything we do. At Vuvu Properties, it’s not just about transactions; it’s about building lasting relationships that empower and uplift.",

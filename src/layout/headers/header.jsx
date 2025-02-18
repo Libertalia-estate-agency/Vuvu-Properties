@@ -21,7 +21,7 @@ const Header = () => {
                   <Link href="/" className="logo">
                     <div className="logo-container d-flex align-items-center"> 
                       <Link href={'/'}>
-                        <a><img src="/assets/img/logo/vuvu.png" alt="" /></a>
+                        <a><img src="/assets/img/logo/vuvu1.png" alt="" /></a>
                       </Link>
                     </div>
                   </Link>

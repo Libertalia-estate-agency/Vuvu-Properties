@@ -7,6 +7,7 @@ import AboutArea from './about-area';
 import FeatureArea from './feature-area';
 import ServicesArea from './services-area';
 import TeamArea from './team-area';
+import MissionArea from './mission-area';
 
 const About = () => {
   useEffect(() => {
@@ -19,6 +20,8 @@ const About = () => {
       <Header />
 
       <Breadcrumb title={'About Vuvu Properties'} />
+      <MissionArea /> 
+
       <AboutArea/>
       <ServicesArea/>
       <FeatureArea/>

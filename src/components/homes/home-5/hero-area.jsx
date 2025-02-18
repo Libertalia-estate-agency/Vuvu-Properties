@@ -13,7 +13,7 @@ const hero_contents = {
   title: 'Business Planing',
   highlight_text: 'Advisors',
   short_text: <>At collax we specialize in designing, building, shipping and scaling <br /> beautiful, usable products with blazing.</>,
-  hero_img: '/assets/img/hero/hero-5.1.png',
+  hero_img: '/assets/img/hero/hero6.jpg',
   social_links: [
     { num: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
     { num: 3, icon: 'fab fa-youtube social-icon-3', title: 'Youtube',link: 'https://www.youtube.com/' },
@@ -36,7 +36,7 @@ const HeroArea = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-7 col-lg-7">
-            <div className="tp-hero-section-box-five">
+            <div className="tp-hero-section-box-five mt-75">
               <div className="tp-hero-section-box-five__subtitle-wrapper d-flex justify-content-between align-items-center mb-40 wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".5s">
                 <div className="tp-hero-section-box-five__subtitle">
                   <h5>{subtitle}</h5>
@@ -71,6 +71,7 @@ const HeroArea = () => {
               <div className="tp-hero-right-side-five__img wow tpfadeRight"
                 data-wow-duration=".9s" data-wow-delay="1.2s">
                 <img src={hero_img} alt="" />
+
               </div>
             </div>
           </div>

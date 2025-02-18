@@ -15,7 +15,7 @@ const hero_contents = {
     { id: 4, icon: 'fab fa-linkedin social-icon-2', title: 'Linked In',link: 'http://linkedin.com' },
     
   ],
-  hero_img: '/assets/img/hero/hero3.jpg',
+  hero_img: '/assets/img/hero/hero6.jpg',
 }
 
 const { title, text, btn_text, btn_text_2, social_links, hero_img } = hero_contents;

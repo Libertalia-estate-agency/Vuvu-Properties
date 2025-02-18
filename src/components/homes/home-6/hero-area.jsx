@@ -5,13 +5,15 @@ import { HeroSocials } from '../../../layout/social-links';
 import { HighlightSix } from '../../../svg';
 import VideoModal from '../../common/modals/modal-video';
 
+import Image  from 'next/image';
+
 const hero_contents = {
   title: <>Providing unparalleled <span className="tp-highlight"> <HighlightSix /> <i>IT business solution</i>
   </span> to maximum satisfaction</>,
   sm_text: <>At collax we specialize in designing, building, shipping and scaling <br/> beautiful, usable products with blazing-fast efficiency</>,
   video_id: 'AFHnVR1vb84',
   video_title: 'Behind the scenes',
-  hero_img: '/assets/img/hero/hero-6.1.png',
+  hero_img: '/assets/img/hero/hero6.jpg',
 }
 
 const { hero_img, sm_text, title, video_id, video_title } = hero_contents;
@@ -57,7 +59,14 @@ const HeroArea = () => {
               <div className="tp-hero-right">
                 <div className="tp-bp-hero__img  p-relative wow tpfadeRight"
                   data-wow-duration=".9s" data-wow-delay="1s">
-                  <img className="z-index-1" src={hero_img} alt="hero img" />
+                  <Image 
+                                      src={hero_img} 
+                                      alt="Hero Image" 
+                                      layout="responsive"  
+                                      width={550} 
+                                      height={450} 
+                                      className="rounded-image"
+                                    />
                 </div>
               </div>
             </div>
