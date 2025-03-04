@@ -13,7 +13,7 @@ const ContactArea = () => {
                   <img src="/assets/img/contact/contact-1.jpg" alt="" />
                 </div>
                 <div className="tp-contact-info mb-40">
-                  <h4 className="contact-title">Support Email`</h4>
+                  <h4 className="contact-title">Support Email</h4>
                   <span><a href="mailto:(webmail@gmail.com)">(info@vuvuproperties.co.za)</a></span>
                   <span><a href="mailto:(infoweb@gmail.com)">(support@vuvuproperties.co.za)</a></span>
                 </div>
@@ -24,7 +24,7 @@ const ContactArea = () => {
                 </div>
                 <div className="tp-contact-info">
                   <h4 className="contact-title">Address line</h4>
-                  <span><a href="https://www.google.com/maps" target="blank">7 Quail Close, Meyersdal Eco Estate, 1448</a></span>
+                  <span><a href="https://www.google.com/maps" target="blank">P.O.Box 302 <br />Mulbarton <br /> 2059 <br /> </a></span>
                 </div>
               </div>
             </div>

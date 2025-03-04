@@ -2,7 +2,7 @@ import React from 'react';
 
 const Specialities = () => {
   return (
-    <div className="tp-industri-area pb-130 p-relative">
+    <div className="tp-industri-area pb-10 p-relative">
       <div className="bs-industri-1 d-none d-lg-block">
         <img src="assets/img/chose/hero-shape-5.1.png" alt="" />
       </div>

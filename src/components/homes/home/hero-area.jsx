@@ -12,8 +12,8 @@ const hero_contents = {
     'hero-shape-5.2.png',
   ],
   subtitle: <>Explore Vuvu Properties Training Academy <b> </b><span></span></>,
-  title: 'Property Expert',
-  highlight_text: 'Advisors',
+  title: 'Where Ownership Meets ',
+  highlight_text: ' Excellence',
   short_text: <>At Vuvu Properties, we specialize in helping clients buy, sell, and rent premium properties with professionalism, efficiency, and expertise.</>,
   hero_img: '/assets/img/hero/hero6.jpg',
   social_links: [
@@ -44,7 +44,7 @@ const HeroArea = () => {
                   <h5>{subtitle}</h5>
                 </div>
                 <div className="tp-hero-section-box-five__subtitle-link">
-                  <Link href="/price">
+                  <Link href="/academy6">
                     <a><ArrowRight /></a>
                   </Link>
                 </div>
@@ -73,14 +73,7 @@ const HeroArea = () => {
               <div className="tp-hero-right-side-five__img wow tpfadeRight"
                 data-wow-duration=".9s" data-wow-delay="1.2s">
                 <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
-                  <Image 
-                    src={hero_img} 
-                    alt="Hero Image" 
-                    layout="responsive"  
-                    width={550} 
-                    height={450} 
-                    className="rounded-image"
-                  />
+                  
               </div>
               </div>
             </div>

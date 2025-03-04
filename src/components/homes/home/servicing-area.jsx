@@ -20,7 +20,7 @@ const { ser_logo, shapes, subtitle, title } = contents;
 
 const ServicesArea = () => {
   return (
-    <div className="tp-service-area tp-service-bs-space pt-130 pb-130 white-bg p-relative">
+    <div className="tp-service-area tp-service-bs-space pt-10 pb-130 white-bg p-relative">
       {shapes.map((s, i) => (
         <div key={i} className={`bp-sv-shape-${i + 1} d-none d-lg-block`}>
           <img src={`/assets/img/${s}`} alt="" />

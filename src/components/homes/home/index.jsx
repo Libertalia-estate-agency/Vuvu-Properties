@@ -26,7 +26,6 @@ const Home = () => {
     <Wrapper>
       <Header />
       <HeroArea />
-      <MissionArea /> 
       <Specialities />
       <ServicingArea />
       <ServiceArea />

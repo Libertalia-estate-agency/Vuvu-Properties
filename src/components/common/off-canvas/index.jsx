@@ -34,7 +34,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 <Link href="/">
                   <div className="logo-container d-flex align-items-center">
                       <Link href={'/'}>
-                        <a><img src="/assets/img/logo/vuvu.png" alt="" /></a>
+                        <a><img src="/assets/img/logo/vuvu1.png" alt="" /></a>
                       </Link>
                   </div>
                 </Link>
@@ -66,8 +66,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <span>Contact us</span>
             <ul>
               <li>
-                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">7 Quail Close Meyersdal Eco
-                Estate 1448</a>
+                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">P.O.Box 302 <br /> Mulbarton <br /> 2059 <br /> </a>
               </li>
               <li><i className="fas fa-star"></i><a href="tel:8180012345678">083-272-9115</a></li>
               <li><i className="fas fa-star"></i><a href="mailto:Collaxmail@gmail.com">support@vuvuproperties.co.za</a></li>
