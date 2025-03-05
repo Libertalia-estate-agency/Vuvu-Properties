@@ -43,14 +43,7 @@ const HeroArea = () => {
                   </span>
                 </h3>
                   <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
-                                    <Image 
-                                      src={hero_img} 
-                                      alt="Hero Image" 
-                                      layout="responsive"  
-                                      width={550} 
-                                      height={450} 
-                                      className="rounded-image"
-                                    />
+                                    
                                 </div>
                 
                 <div className="tp-hero-social-link wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
@@ -71,3 +64,17 @@ const HeroArea = () => {
 };
 
 export default HeroArea;
+
+
+/**
+ * 
+ * <Image 
+                                      src={hero_img} 
+                                      alt="Hero Image" 
+                                      layout="responsive"  
+                                      width={550} 
+                                      height={450} 
+                                      className="rounded-image"
+                                    />
+ * 
+ */

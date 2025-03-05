@@ -61,14 +61,7 @@ const HeroArea = () => {
             </div>
             <div className="col-xl-5 col-lg-5">
               <div className="image-container wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
-                  <Image 
-                    src={hero_img} 
-                    alt="Hero Image" 
-                    layout="responsive"  
-                    width={550} 
-                    height={450} 
-                    className="rounded-image"
-                  />
+                  
               </div>
             </div>
           </div>
@@ -79,3 +72,17 @@ const HeroArea = () => {
 };
 
 export default HeroArea;
+
+/**
+ * 
+ * <Image 
+                    src={hero_img} 
+                    alt="Hero Image" 
+                    layout="responsive"  
+                    width={550} 
+                    height={450} 
+                    className="rounded-image"
+                  />
+ * 
+ * 
+ */

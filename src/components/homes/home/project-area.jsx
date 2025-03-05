@@ -58,10 +58,10 @@ const ProjectArea = () => {
                   <div className="tp-project-content ml-20">
                     <h2 className="pro-lg-title">
                       <Link href={`/portfolio-masonry`}>
-                        <a>Waterfall City, Midrand</a>
+                        <a>Aspen Nature Estate</a>
                       </Link>
                     </h2>
-                    <p>Midrand is the perfect blend of contemporary lifestyle and prime location. Our exclusive listings feature elegant homes, stylish apartments, and serene estates, all situated in one of Johannesburg&apos;s fastest-growing regions.</p>
+                    <p>Aspen Nature Estate offers the perfect blend of luxury living and natural tranquility. Our exclusive listings feature elegant homes, modern residences, and serene estates, all nestled within a secure and picturesque environment. Experience refined living surrounded by lush landscapes in one of Johannesburg’s most sought-after estates.</p>
                     <Link href={`/portfolio-masonry`}>
                       <a className="tp-btn-sm bg-black">View Properties <i className="far fa-arrow-right"></i></a>
                     </Link>
