@@ -11,7 +11,7 @@ const menu_data = [
       {link:'/home-3',title:'Home 3'},
       {link:'/home-4',title:'Home 4'},
       {link:'/home-5',title:'Home 5'},
-      {link:'/home-6',title:'Home 6'},
+      {link:'/home-6',title:'Home 6 '},
     ]
   },
   {
@@ -54,8 +54,7 @@ const menu_data = [
     link:'/',
     sub_menus: [
       {link:'/blog',title:'News'},
-      {link:'/faq',title:'FAQ'},
-      {link:'/404',title:'Privacy Policy'},
+      {link:'/faq',title:'FAQs'},
     ]
   },
   {
