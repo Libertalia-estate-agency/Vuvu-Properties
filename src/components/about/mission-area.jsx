@@ -109,7 +109,14 @@ const MissionArea = () => {
           </div>
           <div className="col-xl-6 col-lg-5 col-md-12 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">
             <div className="tp-mission-img">
-              <img src={img} alt=""/>
+              <Image 
+                              src={img} 
+                              alt="Hero Image" 
+                              layout="responsive"  
+                              width={550} 
+                              height={450} 
+                              className="rounded-image border"
+                            />
             </div>
           </div>
         </div>

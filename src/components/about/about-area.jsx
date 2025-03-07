@@ -51,8 +51,7 @@ const AboutArea = () => {
                   <div className="actestimonial__icon">
                     <Image 
                                     src={client_icon} 
-                                    alt="Hero Image" 
-                                    layout="responsive"  
+                                    alt="Hero Image"  
                                     width={64} 
                                     height={64}
                                   />

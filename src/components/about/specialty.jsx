@@ -4,7 +4,14 @@ const Specialities = () => {
   return (
     <div className="tp-industri-area pb-130 p-relative">
       <div className="bs-industri-1 d-none d-lg-block">
-        <img src="assets/img/chose/hero-shape-5.1.png" alt="" />
+        <Image 
+                                      src='assets/img/chose/hero-shape-5.1.png' 
+                                      alt="Hero Image" 
+                                      layout="responsive"  
+                                      width={550} 
+                                      height={450} 
+                                      className="rounded-image border"
+                                    />
       </div>
       <div className="container tp-industri-bg">
         <div className="row justify-content-center">

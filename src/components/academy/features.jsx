@@ -41,8 +41,14 @@ const FeatureArea = () => {
         <div className="row">
           <div className="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".5s" data-wow-delay=".5s">
             <div className="tp-fea-img">
-              <img src={feature_img} alt=""/>
-              
+              <Image 
+                                                  src={feature_img} 
+                                                  alt="Hero Image"
+                                                  layout='responsive' 
+                                                  width={'100%'} 
+                                                  height={'100%'} 
+                                                  className="rounded-image"
+                                                />
             </div>
           </div>
           <div className="col-xl-6 col-lg-6  wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">
