@@ -17,11 +17,11 @@ const creative_contents = {
     
     {
       id: 1, duration: '.5s', delay: '.8s', color: 'tp-creative-blue', icon: 'flaticon-clipboard',
-      box_title: '1017+', box_text: 'Residential Sales '
+      box_title: '3+', box_text: 'Residential Rentals '
     },
     {
       id: 2, duration: '.7s', delay: '1s', color: 'tp-creative-background', icon: 'flaticon-setting',
-      box_title: '1150+', box_text: 'Commercial Sales'
+      box_title: '7+', box_text: 'Residential Sales'
     },
     { id: 3, duration: '.3s', delay: '.6s', color: 'tp-creative-color',icon: 'flaticon-satisfaction', box_title: '99%', 
       box_text: 'Client Satisfaction' 

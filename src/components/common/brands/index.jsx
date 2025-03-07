@@ -12,7 +12,7 @@ const brand_images = [
   '/assets/img/brand/sapoa.png',
   '/assets/img/brand/brand20.png',
   '/assets/img/brand/brand21.png',
-  
+  '/assets/img/brand/image.svg',
 ]
 
 const Index = () => {
