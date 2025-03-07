@@ -44,7 +44,7 @@ const HeroArea = () => {
                   <h5>{subtitle}</h5>
                 </div>
                 <div className="tp-hero-section-box-five__subtitle-link">
-                  <Link href="/academy6">
+                  <Link href="/academy">
                     <a><ArrowRight /></a>
                   </Link>
                 </div>
