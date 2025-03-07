@@ -26,7 +26,7 @@ const PolicyArea = () => {
 
                 Usage Data is collected automatically when using our site.
 
-                Usage Data may include information such as your device's IP address, browser type, browser version, the pages of our site that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+                Usage Data may include information such as your device&apos;s IP address, browser type, browser version, the pages of our site that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
                 When you access the site by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
@@ -53,13 +53,13 @@ const PolicyArea = () => {
                 The security of Your Personal Data is important to us that is why we make use of industry leading security- and hosting solutions to protect your Personal Data.</p>
               <p><strong>Links to Other Websites</strong> <br />
 
-                Our Service may contain links to other websites that are not operated by us. If You click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+                Our Service may contain links to other websites that are not operated by us. If You click on a third-party link, you will be directed to that third party&apos;s site. We strongly advise you to review the Privacy Policy of every site you visit.
 
                 We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services.
                 <br /> <br />
                 <strong> Changes to this Privacy Policy</strong>
                 <br />
-                We may update Our Privacy Policy from time to time which will be reflected in the "Last updated" date at the bottom of this Privacy Policy.
+                We may update Our Privacy Policy from time to time which will be reflected in the &quot;Last updated&quot; date at the bottom of this Privacy Policy.
 
                 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page. Your continued use of the site after we post any modifications will be seen as your acknowledgment and your consent to abide by and be bound by the modified Privacy Policy.
                 <br /> <br />
