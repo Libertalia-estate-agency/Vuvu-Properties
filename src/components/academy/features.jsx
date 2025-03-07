@@ -35,7 +35,14 @@ const FeatureArea = () => {
   return (
     <div className="tp-feature-arae pt-130 pb-100 p-relative">
       <div className="ce-chose-shape d-none d-lg-block">
-        <img src="/assets/img/hero/hero-shape-4.png" alt=""/>
+        <Image 
+                                                  src='/assets/img/hero/hero-shape-4.png' 
+                                                  alt="Hero Image"
+                                                  layout='responsive' 
+                                                  width={'100%'} 
+                                                  height={'100%'} 
+                                                  className="rounded-image"
+                                                />
       </div>
       <div className="container">
         <div className="row">
