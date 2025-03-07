@@ -1,9 +1,9 @@
 module.exports = [
   {
     id:1,
-    img:'/assets/img/product/product2.jpg',
+    img:'/assets/img/product/product14.jpg',
     title:'Real Estate Foundations',
-    price:'6 Weeks',
+    price:'8 Weeks',
     sm_desc:'A foundational course introducing the basics of real estate, targeted at beginners with no prior experience in the industry.',
     customer_reviews:5,
     rating:4,
@@ -45,7 +45,7 @@ module.exports = [
   },
   {
     id: 2,
-    img: '/assets/img/product/product11.jpg',
+    img: '/assets/img/product/product15.jpg',
     title: 'Advanced Real Estate Agent Training',
     price: '12 Weeks',
     sm_desc: 'Designed for individuals who wish to become certified real estate agents or improve their existing skills.',
@@ -88,7 +88,7 @@ module.exports = [
   },  
   {
     id: 3,
-    img: '/assets/img/product/product12.jpg',
+    img: '/assets/img/product/product16.jpg',
     title: 'Property Investment Strategies',
     price: '8 Weeks',
     sm_desc: 'A practical course for aspiring and experienced investors looking to maximize their real estate portfolios.',
@@ -260,7 +260,7 @@ module.exports = [
   },
   {
     "id": 7,
-    "img": "/assets/img/product/product8.jpg",
+    "img": "/assets/img/product/product18.jpg",
     "title": "Digital Marketing for Real Estate",
     "price": "6 Weeks",
     "sm_desc": "Enhance your online presence and leverage digital marketing tools to attract more clients in real estate.",
@@ -303,7 +303,7 @@ module.exports = [
   },
   {
     "id": 8,
-    "img": "/assets/img/product/product9.jpg",
+    "img": "/assets/img/product/product17.jpg",
     "title": "Real Estate Photography & Videography",
     "price": "4 Weeks",
     "sm_desc": "Learn the art of capturing stunning property photos and videos to market real estate effectively.",

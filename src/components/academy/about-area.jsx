@@ -9,11 +9,11 @@ const contents = {
   video_id:'8D6b3McyhhU',
   right_text_1:"The Vuvu Properties Training Academy aims to empower aspiring real estate professionals and individuals interested in property investment, management, and development. The academy will provide a platform for education, mentorship, and skill-building in the real estate sector.",
   right_text_2:"This initiative aligns with Vuvu Properties' mission to uphold professionalism, integrity, and empowerment within the property industry, especially targeting historically underrepresented communities. ",
-  client_icon:'/assets/img/about/testi-7.png',
+  client_icon:'/assets/img/about/profile.png',
   client_name:'Nomvula M.',
   client_title:'Accredited Lead Instructor',
   desc:"Empowering individuals with the right knowledge and tools not only changes their lives but also transforms the real estate landscape for the better.",
-  about_img:'/assets/img/hero/hero2.jpg',
+  about_img:'/assets/img/hero/hero4.jpg',
 }
 const {about_img,client_icon,client_name,client_title,desc,right_text_1,right_text_2,title,video_id,video_title} = contents;
 

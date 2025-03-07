@@ -28,7 +28,7 @@ const FooterFive = () => {
               <div className="footer-widget-info text-center">
                 <h2 className="tp-footer-title pb-15">{title}</h2>
                 <p>{sm_text}</p>
-                <a className="tp-btn-sky mb-50" href="#">{btn_text}</a>
+                <a className="tp-btn-sky mb-50" href="/contact">{btn_text}</a>
                 <p className="right-receved">{copy_right}</p>
               </div>
             </div>

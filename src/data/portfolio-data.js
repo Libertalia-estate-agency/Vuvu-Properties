@@ -14,7 +14,7 @@ const portfolio_data = [
     id: 2,
     img: '/assets/img/project/aspen.jpg',
     title: 'Eye Of Africa',
-    sm_text: ' Explore stunning homes, modern apartments, and spacious estates tailored for discerning buyers and renters who value exclusivity and sophistication. ',
+    sm_text: 'Explore stunning homes, modern apartments, and spacious estates tailored for discerning buyers and renters who value exclusivity and sophistication. ',
     category: 'Premium Listings',
     sm: true,
     home: true,
@@ -118,9 +118,9 @@ const portfolio_data = [
   // category Luxury
   {
     id: 14,
-    img: '/assets/img/project/luxury4.jpg',
-    title: 'Waterfall City',
-    subtitle: 'From R4 000 000',
+    img: '/assets/img/project/project12.jpg',
+    title: 'Meyersdal Eco Estate',
+    subtitle: 'From R4 000 000', 
     category: 'Luxury',
     big: true,
     home_4: true,
@@ -128,7 +128,7 @@ const portfolio_data = [
   },
   {
     id: 15,
-    img: '/assets/img/project/luxury2.jpg',
+    img: '/assets/img/project/project16.jpg',
     title: 'Houghton Estate',
     subtitle: 'From R3 000 000',
     category: 'Luxury',
@@ -137,7 +137,7 @@ const portfolio_data = [
   },
   {
     id: 16,
-    img: '/assets/img/project/luxury6.jpeg',
+    img: '/assets/img/project/project17.jpg',
     title: 'Broadacres',
     subtitle: 'From R2 000 000',
     category: 'Luxury',
@@ -146,7 +146,7 @@ const portfolio_data = [
   },
   {
     id: 17,
-    img: '/assets/img/project/luxury3.jpg',
+    img: '/assets/img/project/project15.jpg',
     title: 'Sandton City',
     subtitle: 'From R5 000 000',
     category: 'Luxury',

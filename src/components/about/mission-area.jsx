@@ -55,7 +55,7 @@ courtesy
       transaction process.</>
     },
   ],
-  img:'/assets/img/mission/team.jpg'
+  img:'/assets/img/mission/team1.jpg'
 }
 
 const { shapes, tabs, tab_contents,img } = contents;
