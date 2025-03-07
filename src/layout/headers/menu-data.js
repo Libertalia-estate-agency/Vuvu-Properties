@@ -55,6 +55,7 @@ const menu_data = [
     sub_menus: [
       {link:'/blog',title:'News'},
       {link:'/faq',title:'FAQs'},
+      {link:'/policy',title:'Privacy Policy'}, 
     ]
   },
   {

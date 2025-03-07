@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderSix, Wrapper } from '../../../layout';
+import { FooterFive, Header, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 import Breadcrumb from '../../common/breadcrumb/breadcrumb';
 import Cta from '../../common/cta/cta';
@@ -19,7 +19,7 @@ const PortfolioDetails = ({case_item}) => {
 
   return (
     <Wrapper>
-      <HeaderSix />
+      <Header />
       <Breadcrumb title={case_item?.title?case_item?.title:'Case Details'} />
       <CaseImageArea case_item={case_item}/>
       <ProjectInfoArea item={case_item} />
@@ -27,7 +27,7 @@ const PortfolioDetails = ({case_item}) => {
       <CaseImageAreaTwo/>
       <IntroduceTwo/>
       <Cta/>
-      <FooterThree />
+      <FooterFive />
     </Wrapper>
   );
 };
