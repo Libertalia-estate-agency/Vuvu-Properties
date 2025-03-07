@@ -49,8 +49,13 @@ const AboutArea = () => {
               <div className="ac-testimonial-info">
                 <div className="actestimonial">
                   <div className="actestimonial__icon">
-                    <img src={client_icon} alt="" />
-                    
+                    <Image 
+                                    src={client_icon} 
+                                    alt="Hero Image" 
+                                    layout="responsive"  
+                                    width={64} 
+                                    height={64}
+                                  />
                   </div>
                   <div className="actestimonial__position">
                     <h4 className="ac-client-name"><a href="#">{client_name}</a></h4>
